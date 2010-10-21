@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.1" version="1.1">
-  <file original="manual.tmx" source-language="en" datatype="plaintext" target-language="ar">
+  <file original="manual.tmx" source-language="en_GB" datatype="plaintext" target-language="ar">
     <body>
       <trans-unit xml:space="preserve" approved="yes" id="Effecting change through localisation">
         <source>Effecting change through localisation</source>
@@ -32,7 +32,7 @@
       </trans-unit>
       <trans-unit xml:space="preserve" approved="yes" id="This book specifically discusses the localisation of so-called &lt;f0&gt;Free and Open Source Software&lt;/f0&gt;&lt;f1&gt; (FOSS) – software that we are able to localise and distribute freely. Many such software projects are leading the industry in language support. &lt;/f1&gt;Although this book is about FOSS, it will also be useful to learn about software localisation in general, and about contributing to FOSS projects in more ways than just localisation.">
         <source>This book specifically discusses the localisation of so-called &lt;f0&gt;Free and Open Source Software&lt;/f0&gt;&lt;f1&gt; (FOSS) – software that we are able to localise and distribute freely. Many such software projects are leading the industry in language support. &lt;/f1&gt;Although this book is about FOSS, it will also be useful to learn about software localisation in general, and about contributing to FOSS projects in more ways than just localisation.</source>
-        <target state="translated">يهتم هذا الكتاب على وجه الخصوص بتوطين ما يعرف &lt;f0&gt;بالبرمجيات الحرة مفتوحة المصدر&lt;/f0&gt;&lt;f1&gt;، وهي برمجيات يتاح توطينها ونشرها بحرية، والكثير من هذه المشروعات البرمجية لها الريادة في دعم مختلف اللغات، &lt;/f1&gt;لكنه يظل مفيدا في مجال توطين البرمجيات عموما، وفي المشاركة في البرمجيات الحرة في مجالات أخرى غير التوطين.</target>
+        <target state="translated">يهتم هذا الكتاب على وجه الخصوص بتوطين ما يعرف &lt;f0&gt;بالبرمجيات الحرة مفتوحة المصدر&lt;/f0&gt;، وهي برمجيات يتاح توطينها ونشرها بحرية، والكثير من هذه المشروعات البرمجية لها الريادة في دعم مختلف اللغات، لكنه يظل مفيدا في مجال توطين البرمجيات عموما، وفي المشاركة في البرمجيات الحرة في مجالات أخرى غير التوطين.</target>
       </trans-unit>
       <trans-unit xml:space="preserve" approved="yes" id="While several topics are discussed in this book, the scope is obviously limited to keep it at a manageable size. Many more topics might be relevant to localisation in a specific language, or with certain tools. We limit the discussion to topics of general interest to most FOSS localisation, and we limit the discussion on tools mostly to Virtaal and Pootle.">
         <source>While several topics are discussed in this book, the scope is obviously limited to keep it at a manageable size. Many more topics might be relevant to localisation in a specific language, or with certain tools. We limit the discussion to topics of general interest to most FOSS localisation, and we limit the discussion on tools mostly to Virtaal and Pootle.</source>
@@ -56,7 +56,7 @@
       </trans-unit>
       <trans-unit xml:space="preserve" approved="yes" id="Thank you to Khaled Hosny suggesting guidelines on transliteration. The original Arabic article from the Arabeyes project is available here: &lt;a0&gt;&lt;f1&gt;http://wiki.arabeyes.org/تعريب_الأسماء&lt;/f1&gt;&lt;/a0&gt;">
         <source>Thank you to Khaled Hosny suggesting guidelines on transliteration. The original Arabic article from the Arabeyes project is available here: &lt;a0&gt;&lt;f1&gt;http://wiki.arabeyes.org/تعريب_الأسماء&lt;/f1&gt;&lt;/a0&gt;</source>
-        <target state="translated">شكرا لخالد حسني على اقتراحه إضافة إرشادات لكتابة أسماء الأعلام الأجنبية. المقالة الأصلية باللغة العربية في موقع عربآيز: &lt;a0&gt;&lt;f1&gt;http://wiki.arabeyes.org/تعريب_الأسماء&lt;/f1&gt;&lt;/a0&gt;</target>
+        <target state="translated">شكرا لخالد حسني على اقتراحه إضافة إرشادات لكتابة أسماء الأعلام الأجنبية. المقالة الأصلية باللغة العربية في موقع عربآيز: &lt;a0&gt;http://wiki.arabeyes.org/تعريب_الأسماء&lt;/a0&gt;</target>
       </trans-unit>
       <trans-unit xml:space="preserve" approved="yes" id="License">
         <source>License</source>
@@ -480,131 +480,131 @@
       </trans-unit>
       <trans-unit xml:space="preserve" approved="yes" id="Background">
         <source>Background</source>
-        <target state="translated"/>
+        <target state="translated">مقدمة</target>
       </trans-unit>
       <trans-unit xml:space="preserve" approved="yes" id="Computer software is often created to communicate with the user in a certain language, such as English. For the software to be usable by people who speak a different language, the software messages would have to be translated. This process is at the heart of &lt;f0&gt;software localisation&lt;/f0&gt;&lt;f1&gt;. Localisation really refers to all the changes made to a product to adapt it to a new language, country, culture or even legislation.&lt;/f1&gt;">
         <source>Computer software is often created to communicate with the user in a certain language, such as English. For the software to be usable by people who speak a different language, the software messages would have to be translated. This process is at the heart of &lt;f0&gt;software localisation&lt;/f0&gt;&lt;f1&gt;. Localisation really refers to all the changes made to a product to adapt it to a new language, country, culture or even legislation.&lt;/f1&gt;</source>
-        <target state="translated"/>
+        <target state="translated">تصمم البرمجيات لتتواصل مع المستخدم بلغة معينة مثل الانجليزية، ولذا يجب ترجمة الرسائل التي تعرضها ليتاح استخدامها لمتحدثي اللغات الأخرى، وهذا هو لب عملية &lt;f0&gt;توطين البرمجيات&lt;/f0&gt;. ويُعنى بالتوطين كل التغييرات التي تجري على المنتج لتطويعه إلى لغة أو بلد أو ثقافة أو حتى نظام قانوني مختلف.</target>
       </trans-unit>
       <trans-unit xml:space="preserve" approved="yes" id="Example">
         <source>Example</source>
-        <target state="translated"/>
+        <target state="translated">مثال</target>
       </trans-unit>
       <trans-unit xml:space="preserve" approved="yes" id="Look at how this text editor is completely adapted for Arabic:">
         <source>Look at how this text editor is completely adapted for Arabic:</source>
-        <target state="translated"/>
+        <target state="translated">انظر كيف طُوّع محرر النصوص ليناسب اللغة العربية:</target>
       </trans-unit>
       <trans-unit xml:space="preserve" approved="yes" id="Although translation is the most prominent part of software localisation, there are many other changes to software that might be considered to adapt it to a new set of users. Maybe some images should be replaced, references to money should be adapted to the local currency, and dates and numbers might be formatted in a different way depending on the writing tradition of the new users.">
         <source>Although translation is the most prominent part of software localisation, there are many other changes to software that might be considered to adapt it to a new set of users. Maybe some images should be replaced, references to money should be adapted to the local currency, and dates and numbers might be formatted in a different way depending on the writing tradition of the new users.</source>
-        <target state="translated"/>
+        <target state="translated">مع أن الترجمة هي الجزء الأهم في عملية التوطين إلا أن هناك تغييرات أخرى يجب وضعها في الاعتبار. فقد تكون هناك حاجة لاستبدال بعض الصور أو استخدام العملة المحلية أو تنسيق الأرقام والتاريخ حسب الطريقة المتبعة في اللغة المرادة.</target>
       </trans-unit>
       <trans-unit xml:space="preserve" approved="yes" id="Mozilla Firefox version 3.6 was released in 65 localised versions, with more languages available as extensions.">
         <source>Mozilla Firefox version 3.6 was released in 65 localised versions, with more languages available as extensions.</source>
-        <target state="translated"/>
+        <target state="translated">صدرت النسخة 3,6 من موزيلا فيرفكس بخمس وستين لغة بالإضافة إلى لغات أخرى تتوفر عبر إضافات للبرنامج.</target>
       </trans-unit>
       <trans-unit xml:space="preserve" approved="yes" id="&lt;f0&gt;Software companies often consider software localisation when they are trying to find new clients in a country they didn’t operate in before, and localisation is a huge industry. Whereas even the most popular software was only available in a few languages during the 1990s, it is common these days for some software to be available in more than 30 languages, with some even available in more than &lt;/f0&gt;&lt;f1&gt;50.&lt;/f1&gt;">
         <source>&lt;f0&gt;Software companies often consider software localisation when they are trying to find new clients in a country they didn’t operate in before, and localisation is a huge industry. Whereas even the most popular software was only available in a few languages during the 1990s, it is common these days for some software to be available in more than 30 languages, with some even available in more than &lt;/f0&gt;&lt;f1&gt;50.&lt;/f1&gt;</source>
-        <target state="translated"/>
+        <target state="translated">&lt;f0&gt;كثيرا ما تعد شركات البرمجيات التوطين وسيلة لفتح أسواق جديدة في البلدان التي لم يسبق لهم العمل فيها، وسوق التوطين سوق كبيرة. فبينما لم تكن تتوفر أشهر البرمجيات في التسعينيات إلا ببضعة لغات صار من المعتاد اليوم أن تتوفر بعض البرمجيات بأكثر من ثلاثين لغة، بل وأكثر من &lt;/f0&gt;&lt;f1&gt;خمسين&lt;/f1&gt; أحيانا.</target>
       </trans-unit>
       <trans-unit xml:space="preserve" approved="yes" id="Making software available in a new language allows a whole new group of people to use software who might not have been able to do so before. Localised software might be a crucial requirement for someone to be able to take part in the digital world. As we spend more time with computers, and more people do their jobs with computers, the need increases for everyone to be able to use &lt;t0/&gt;computers, even if they only know one language well. By localising software, you can empower users to be first-class citizens of the digital world, without being slowed down by a language barrier or needing to feel as if their language is unimportant. Using your language in the realm of information technology is part of keeping it alive and relevant to the things that people do.">
         <source>Making software available in a new language allows a whole new group of people to use software who might not have been able to do so before. Localised software might be a crucial requirement for someone to be able to take part in the digital world. As we spend more time with computers, and more people do their jobs with computers, the need increases for everyone to be able to use &lt;t0/&gt;computers, even if they only know one language well. By localising software, you can empower users to be first-class citizens of the digital world, without being slowed down by a language barrier or needing to feel as if their language is unimportant. Using your language in the realm of information technology is part of keeping it alive and relevant to the things that people do.</source>
-        <target state="translated"/>
+        <target state="translated">تفتح إتاحة البرمجيات بلغة جيدة طريق استخدامها أمام طائفة كاملة ربما لم تكن تستطيع استخدامها من قبل، وقد لا يستطيع بعض الناس الانخراط في العالم الرقمي بون البرمجيات المُوطّنة. ومع التوسع في استخدام الحواسيب لإنجاز مهام أكثر وأكثر تزيد الحاجة إلى إتاحتها لكل الناس حتى لمن لا يجيدون إلا لغة واحدة. توطين البرمجيات يتيح للمستخدمين أن يكونوا مواطنين من الدرجة الأولى في العالم الرقمي دون أن تعوقهم حواجز اللغة أو أن يضطروا إلى إهمال لغتهم الأم. استخدامك لغتك الأم في عالم المعلومات صورة من صور الحفاظ عليها وبث روح العصر فيها.</target>
       </trans-unit>
       <trans-unit xml:space="preserve" approved="yes" id="Although lots of companies sell computer software or only give you a license to use their software under many restrictions, lots of software is available without such restrictions and often at no cost. Such software is often called &lt;f0&gt;Free Software&lt;/f0&gt; or &lt;f1&gt;Open Source Software&lt;/f1&gt;&lt;f2&gt;. Great emphasis is placed on the &lt;/f2&gt;&lt;f3&gt;freedoms&lt;/f3&gt;&lt;f4&gt; given to users of the software, and to the availability of the software for any purpose. The localisation of this type of software is the focus of this book.&lt;/f4&gt;">
         <source>Although lots of companies sell computer software or only give you a license to use their software under many restrictions, lots of software is available without such restrictions and often at no cost. Such software is often called &lt;f0&gt;Free Software&lt;/f0&gt; or &lt;f1&gt;Open Source Software&lt;/f1&gt;&lt;f2&gt;. Great emphasis is placed on the &lt;/f2&gt;&lt;f3&gt;freedoms&lt;/f3&gt;&lt;f4&gt; given to users of the software, and to the availability of the software for any purpose. The localisation of this type of software is the focus of this book.&lt;/f4&gt;</source>
-        <target state="translated"/>
+        <target state="translated">مع أن كثير من الشركات تبيع برمجيات الحاسوب أو تعطيك ترخيصا باستخدامها فقط، إلا أن هناك الكثير من البرمجيات دون هذه القيود بل وكثيرا ما تكون مجانية. يُطلق على هذه البرمجيات &lt;f0&gt;البرمجيات الحرة&lt;/f0&gt; أو &lt;f1&gt;البرمجيات مفتوحة المصدر&lt;/f1&gt;، ويولي مناصروها اهتماما كبيرا &lt;f3&gt;للحريات&lt;/f3&gt; المتاحة لمستخدمي البرمجيات وتوفرها لكل الأغراض. توطين هذا البرمجيات هو محور هذا الكتاب.</target>
       </trans-unit>
       <trans-unit xml:space="preserve" approved="yes" id="&lt;f0&gt;Read more about Free Software: &lt;/f0&gt;&lt;a1&gt;&lt;f2&gt;http://www.gnu.org/philosophy/free-sw.html&lt;/f2&gt;&lt;/a1&gt;">
         <source>&lt;f0&gt;Read more about Free Software: &lt;/f0&gt;&lt;a1&gt;&lt;f2&gt;http://www.gnu.org/philosophy/free-sw.html&lt;/f2&gt;&lt;/a1&gt;</source>
-        <target state="translated"/>
+        <target state="translated">للاطلاع أكثر على البرمجيات الحرة، طالع: &lt;a1&gt;http://www.gnu.org/philosophy/free-sw.html&lt;/a1&gt;</target>
       </trans-unit>
       <trans-unit xml:space="preserve" approved="yes" id="&lt;f0&gt;Read more about Open Source Software: &lt;/f0&gt;&lt;a1&gt;&lt;f2&gt;http://opensource.org/docs/osd&lt;/f2&gt;&lt;/a1&gt;">
         <source>&lt;f0&gt;Read more about Open Source Software: &lt;/f0&gt;&lt;a1&gt;&lt;f2&gt;http://opensource.org/docs/osd&lt;/f2&gt;&lt;/a1&gt;</source>
-        <target state="translated"/>
+        <target state="translated">وللاطلاع أكثر على البرمجيات مفتوحة المصدر: &lt;a1&gt;http://opensource.org/docs/osd&lt;/a1&gt;</target>
       </trans-unit>
       <trans-unit xml:space="preserve" approved="yes" id="&lt;f0&gt;Free and Open Software is often abbreviated as FOSS – an abbreviation that is also used in this book. Software released under stricter licenses which is not Free and Open Source Software, is often called &lt;/f0&gt;&lt;f1&gt;proprietary software&lt;/f1&gt;&lt;f2&gt;. Although some proprietary software is aimed at the global market and available in many languages, it is usually entirely up to the software developer to decide which languages to support, and whether or not to release the localised versions at the same time as the official version.&lt;/f2&gt;">
         <source>&lt;f0&gt;Free and Open Software is often abbreviated as FOSS – an abbreviation that is also used in this book. Software released under stricter licenses which is not Free and Open Source Software, is often called &lt;/f0&gt;&lt;f1&gt;proprietary software&lt;/f1&gt;&lt;f2&gt;. Although some proprietary software is aimed at the global market and available in many languages, it is usually entirely up to the software developer to decide which languages to support, and whether or not to release the localised versions at the same time as the official version.&lt;/f2&gt;</source>
-        <target state="translated"/>
+        <target state="translated">البرمجيات التي تخضع لتراخيص أكثر تقييدا بحيث لا تكون حرة أو مفتوحة المصدر كثيرا ما تسمى &lt;f1&gt;برمجيات مملوكة&lt;/f1&gt;. ومع أن بعض البرمجيات المملوكة موجهة للسوق العالمي وتتوفر بالعديد من اللغات إلا أن توطين تلك البرمجيات يقع بالكامل على عاتق مطوريها وإليهم يرجع القرار في أي اللغات يدعمونها ومتى تصدر النسخ المترجمة.</target>
       </trans-unit>
       <trans-unit xml:space="preserve" approved="yes" id="Because Free Software allows modification, anyone is allowed to adapt the software to their needs. If we believe software localisation is important, Free Software allows us to localise the software and to distribute the modified version. In reality, Free Software is usually created by a community with an interest in seeing the software succeed in many ways, and welcome localisers to take part in the project to improve the software and contribute translations and other improvements necessary to make it more suited for a wider audience.">
         <source>Because Free Software allows modification, anyone is allowed to adapt the software to their needs. If we believe software localisation is important, Free Software allows us to localise the software and to distribute the modified version. In reality, Free Software is usually created by a community with an interest in seeing the software succeed in many ways, and welcome localisers to take part in the project to improve the software and contribute translations and other improvements necessary to make it more suited for a wider audience.</source>
-        <target state="translated"/>
+        <target state="translated">لكن الأمر مختلف مع البرمجيات الحرة إذ يسمح لأي كان بتطويعها لتلائم احتياجاته، فإذا كنا نؤمن بأهمية توطين البرمجيات، فإن البرمجيات الحرة تسمح لنا بتوطينها ونشر النسخ المعدلة، وعادة ما يقوم على تطوير البرمجيات الحرة مجتمع يهمه نجاحها ولذا يرحب بمساهمة المترجمين بالترجمة والتحسينات الأخرى الضرورية لتناسب البرمجيات الحرة جمهورا أوسع. </target>
       </trans-unit>
       <trans-unit xml:space="preserve" approved="yes" id="Since FOSS is valuable because it allows us to do more, and because it is usually available at little or no cost, we might want to localise FOSS simply as a way to support these projects, and to make them more popular.">
         <source>Since FOSS is valuable because it allows us to do more, and because it is usually available at little or no cost, we might want to localise FOSS simply as a way to support these projects, and to make them more popular.</source>
-        <target state="translated"/>
+        <target state="translated">ولأن هذه البرمجيات تعطينا الحرية لنشارك فيها ولأنها تتوفر في الأغلب دون مقابل يذكر، فيمكننا رد الجميل لها بتوطينها ليستخدمها الناس أكثر وأكثر.</target>
       </trans-unit>
       <trans-unit xml:space="preserve" approved="yes" id="Therefore we see many reasons for localising FOSS:">
         <source>Therefore we see many reasons for localising FOSS:</source>
-        <target state="translated"/>
+        <target state="translated">لهذا تتعدد أسباب توطين البرمجيات الحرة:</target>
       </trans-unit>
       <trans-unit xml:space="preserve" approved="yes" id="Anyone is free to contribute and cause the change they want to see for their language">
         <source>Anyone is free to contribute and cause the change they want to see for their language</source>
-        <target state="translated"/>
+        <target state="translated">حرية المشاركة والمساهمة بالتعديلات التي تحتاجها لغتك</target>
       </trans-unit>
       <trans-unit xml:space="preserve" approved="yes" id="You can promote software that values your freedom">
         <source>You can promote software that values your freedom</source>
-        <target state="translated"/>
+        <target state="translated">نشر للبرمجيات التي تقدّر حريتك</target>
       </trans-unit>
       <trans-unit xml:space="preserve" approved="yes" id="You can influence developers of proprietary software by improving their competition">
         <source>You can influence developers of proprietary software by improving their competition</source>
-        <target state="translated"/>
+        <target state="translated">دفع مطوري البرمجيات المملوكة إلى تحسين برمجياتهم عن طريق المنافسة</target>
       </trans-unit>
       <trans-unit xml:space="preserve" approved="yes" id="You can gain experience in localisation and translation">
         <source>You can gain experience in localisation and translation</source>
-        <target state="translated"/>
+        <target state="translated">التمرس على توطين وترجمة البرمجيات</target>
       </trans-unit>
       <trans-unit xml:space="preserve" approved="yes" id="Any professional translator will tell you that translation isn’t just some mechanical process. It is a creative process, a topic of academic research, and students can study translation at many institutions. When we see how software struggles to translate from one language to another, we see that a translation requires attention to detail to really feel right. The principles of document translation apply to software localisation as well, and you will definitely benefit from any knowledge of translation. Don’t think that any computer programmer can translate software well just because they understand computers.">
         <source>Any professional translator will tell you that translation isn’t just some mechanical process. It is a creative process, a topic of academic research, and students can study translation at many institutions. When we see how software struggles to translate from one language to another, we see that a translation requires attention to detail to really feel right. The principles of document translation apply to software localisation as well, and you will definitely benefit from any knowledge of translation. Don’t think that any computer programmer can translate software well just because they understand computers.</source>
-        <target state="translated"/>
+        <target state="translated">أي مترجم متمرس سيخبرك أن الترجمة ليست عملية آلية، بل فن ومادة للأبحاث والدراسة الأكاديمية. وعندما نرى من قصور برمجيات الترجمة الآلية، نعي أهمية الاهتمام بالتفاصيل الدقيقة لتخرج الترجمة على الوجه الأكمل. ومبادئ ترجمة المستندات تنطبق أيضا على توطين البرمجيات، والخبرة بالترجمة تفيد أيضا في التوطين، وليس كل مبرمج يستطيع ترجمة البرمجيات لمجرد معرفته بالحوسبة.</target>
       </trans-unit>
       <trans-unit xml:space="preserve" approved="yes" id="However, there are several areas in which software translation is different from other types of translation. Although the text is often of a more technical nature, that is not the only issue. Different &lt;t0/&gt;tools are used, and there are different constraints on what you can do in a translation. Furthermore we devote a whole chapter in this book to some of the technical issues that appear in software localisation (see page &lt;bf1&gt;27&lt;/bf1&gt;). Therefore, keep in mind that very skilled translators will still need to be trained in the issues particular to software translation.">
         <source>However, there are several areas in which software translation is different from other types of translation. Although the text is often of a more technical nature, that is not the only issue. Different &lt;t0/&gt;tools are used, and there are different constraints on what you can do in a translation. Furthermore we devote a whole chapter in this book to some of the technical issues that appear in software localisation (see page &lt;bf1&gt;27&lt;/bf1&gt;). Therefore, keep in mind that very skilled translators will still need to be trained in the issues particular to software translation.</source>
-        <target state="translated"/>
+        <target state="translated">لكن هناك بعض الاختلافات بين ترجمة البرمجيات وباقي أنواع الترجمة، منها الطبيعة التقنية للنصوص المترجمة لكنها ليست الاختلاف الوحيد، فالأدوات المستخدمة في الترجمة مختلفة، وهناك بعض القيود على الترجمة. خُصص فصل كامل في هذا الكتاب لمناقشة المسائل التقنية التي تظهر عن توطين البرمجيات (انظر ص &lt;bf1&gt;27&lt;/bf1&gt;). لذا يجب أن يوضع في الاعتبار أن حتى أمهر المترجمين بحاجة إلى التمرس على المسائل التي تختص بها ترجمة البرمجيات.</target>
       </trans-unit>
       <trans-unit xml:space="preserve" approved="yes" id="An interesting thing to keep in mind is that a translated document is usually read in a predictable way, from top to bottom, and seen in the same way it left the hands of the translator. With software, it is impossible to know exactly what a user will see, and in which order. Some of the text is changed when the software is running. A user might use software differently from you and therefore experience your translation in a different way than you do when using the translated software!">
         <source>An interesting thing to keep in mind is that a translated document is usually read in a predictable way, from top to bottom, and seen in the same way it left the hands of the translator. With software, it is impossible to know exactly what a user will see, and in which order. Some of the text is changed when the software is running. A user might use software differently from you and therefore experience your translation in a different way than you do when using the translated software!</source>
-        <target state="translated"/>
+        <target state="translated">من المهم الانتباه إلى أن المستند المترجَم عادة ما يقرأ بنفس التتابع من أوله إلى آخره على الصورة التي وضعه المترجم عليها، لكن مع البرمجيات لا يمكن معرفة على وجه الدقة ما الذي سيراه المستخدم وعلى أي ترتيب، إذ تختلف طريقة استخدام البرنامج من شخص لآخر وقد يرى المستخدم الواجهة المترجمة في سياق غير الذي تراها أنت فيه.</target>
       </trans-unit>
       <trans-unit xml:space="preserve" approved="yes" id="If you are familiar with commercial localisation, you probably already saw that FOSS localisation can be quite different. Whether or not money is involved, can obviously make a big difference to the motivations that participants have. It means that a translator might have much more freedom. Workflows are usually not dictated.">
         <source>If you are familiar with commercial localisation, you probably already saw that FOSS localisation can be quite different. Whether or not money is involved, can obviously make a big difference to the motivations that participants have. It means that a translator might have much more freedom. Workflows are usually not dictated.</source>
-        <target state="translated"/>
+        <target state="translated">إذا كانت لقد خبرة بتوطين البرمجيات المملوكة، فعلى الأغلب لاحظت الاختلاف بينه وبين توطين البرمجيات الحرة. فوجود المال أو عدمه له أثر كبير على حافز المشاركة، فمع البرمجيات الحرة يتمتع المترجم بقدر أكبر من الحرية، كما لا يُفرض عليه عادة أسلوب عمل معين.</target>
       </trans-unit>
       <trans-unit xml:space="preserve" approved="yes" id="There is often much closer contact between developers and localisers in FOSS projects, and therefore you can usually get quick feedback on any questions or problems with the source text. Users and translators are also often in more direct contact, allowing feedback to reach you more directly.">
         <source>There is often much closer contact between developers and localisers in FOSS projects, and therefore you can usually get quick feedback on any questions or problems with the source text. Users and translators are also often in more direct contact, allowing feedback to reach you more directly.</source>
-        <target state="translated"/>
+        <target state="translated">عادة ما يتواصل المطورون والمترجمون في المشاريع الحرة بشكل مباشر، مما يتيح سرعة في الإجابة عن أي استفسارات أو مشاكل تتعلق بالنص الأصلي. والمستخدمين والمترجمين أكثر قربا مما يتيح تبادلا مباشرا للآراء.</target>
       </trans-unit>
       <trans-unit xml:space="preserve" approved="yes" id="Many FOSS projects are really welcoming to localisers, and realise that they need to be attractive to volunteers, and often work hard to make things easy for volunteers to contribute translations. For this reason, it often happens that popular FOSS projects get contributions in many languages, even for languages not yet commercially viable outside the FOSS world.">
         <source>Many FOSS projects are really welcoming to localisers, and realise that they need to be attractive to volunteers, and often work hard to make things easy for volunteers to contribute translations. For this reason, it often happens that popular FOSS projects get contributions in many languages, even for languages not yet commercially viable outside the FOSS world.</source>
-        <target state="translated"/>
+        <target state="translated">الكثير من المشاريع الحرة تهتم بالمترجمين وترحب بمشاركتهم ويعي أعضاؤها أهمية جذب المتطوعين ولذا يعملون بجد لتذليل العقبات أمامهم وتسهيل مشاركتهم، ولذا كثيرا ما تتلقى المشاريع الحرة المشهورة مساهمات بلغات كثيرة، بل وأحيانا بلغات لا تجذب الاهتمام التجاري خارج عالم البرمجيات الحرة.</target>
       </trans-unit>
       <trans-unit xml:space="preserve" approved="yes" id="In terms of tools and file formats, obviously FOSS translation tools are the preferred tools to use for FOSS localisation. The PO format is by far the most popular file format. Since this format contains both source and target text (similar to XLIFF), there is a lesser focus on retranslation and the exchange of translation memories. An example workflow is discussed in the section on “&lt;bf0&gt;A simple localisation process&lt;/bf0&gt;” on page &lt;bf1&gt;43&lt;/bf1&gt;.">
         <source>In terms of tools and file formats, obviously FOSS translation tools are the preferred tools to use for FOSS localisation. The PO format is by far the most popular file format. Since this format contains both source and target text (similar to XLIFF), there is a lesser focus on retranslation and the exchange of translation memories. An example workflow is discussed in the section on “&lt;bf0&gt;A simple localisation process&lt;/bf0&gt;” on page &lt;bf1&gt;43&lt;/bf1&gt;.</source>
-        <target state="translated"/>
+        <target state="translated">وبالنسبة للأدوات يُفضل طبعا استخدام أدوات حرة لتوطين البرمجيات الحرة. نسق الملفات PO هو الأكثر شيوعا، ولأنه يحتوى على النص الأصلي بالإضافة إلى الترجمة (مثله مثل XLIFF) فالاهتمام أقل بإعادة الترجمة وتبادل ذواكر الترجمة. قسم “&lt;bf0&gt;عملية توطين بسيطة&lt;/bf0&gt;” ص &lt;bf1&gt;43&lt;/bf1&gt; يتناول مثالا على سير عملية التوطين.</target>
       </trans-unit>
       <trans-unit xml:space="preserve" approved="yes" id="Orientation">
         <source>Orientation</source>
-        <target state="translated"/>
+        <target state="translated">نظرة عامة</target>
       </trans-unit>
       <trans-unit xml:space="preserve" approved="yes" id="Formulating objectives">
         <source>Formulating objectives</source>
-        <target state="translated"/>
+        <target state="translated">تحديد الأهداف</target>
       </trans-unit>
       <trans-unit xml:space="preserve" approved="yes" id="As we saw in the previous section, there are many reasons to localise FOSS. Your reasons might be different than other contributors, but that usually won’t be a problem. What you should always keep in mind is this question:">
         <source>As we saw in the previous section, there are many reasons to localise FOSS. Your reasons might be different than other contributors, but that usually won’t be a problem. What you should always keep in mind is this question:</source>
-        <target state="translated"/>
+        <target state="translated">في الفصل السابق رأينا تعدد الدوافع وراء توطين البرمجيات الحرة، فدافعك قد يختلف عن المشاركين الآخرين، لكن هذه ليست مشكلة في الأغلب، كل ما عليك هو أن تضع نصب عينيك هذا السؤال:</target>
       </trans-unit>
       <trans-unit xml:space="preserve" approved="yes" id="If you just want to localise software because it is fun, it probably doesn’t matter much which software you localise or how you do it. However, many people might have specific goals. Maybe your main goal is to empower people of your country. Maybe you have language preservation in mind. Maybe you just want to promote some software. All of these are valid and noble goals, but it is useful to articulate them and keep your goals in mind, since they can influence your decisions.">
         <source>If you just want to localise software because it is fun, it probably doesn’t matter much which software you localise or how you do it. However, many people might have specific goals. Maybe your main goal is to empower people of your country. Maybe you have language preservation in mind. Maybe you just want to promote some software. All of these are valid and noble goals, but it is useful to articulate them and keep your goals in mind, since they can influence your decisions.</source>
-        <target state="translated"/>
+        <target state="translated">إذا كنت تري توطين البرمجيات لمجرد المتعة فغالبا لا يهمك كثيرا أي برنامج تترجم ولا كيف. لكن كثيرا من الناس يسعون وراء هدف معين، فقد يكون هدفك مساعدة الناس في بلدك، أو المحافظة على اللغة، أو ربما دعما لهذا البرنامج أو ذاك. كلها أهداف نبيلة، لكن يجب تحديدها بوضوح ووضعها دائما نصب عينيك لأن كثيرا من القرارات التي ستأخذها تعتمد على هذه الأهداف.</target>
       </trans-unit>
       <trans-unit xml:space="preserve" approved="yes" id="Whether you work on your own or in a group or even a formal organisation, clear goals will help to motivate and to keep your focus on what you want to achieve. Many companies work towards formulating a vision and mission as part of their strategic planning. Knowing what you are trying to achieve not only helps you to keep an eye on the target, but also makes it easier to know when you succeeded!">
         <source>Whether you work on your own or in a group or even a formal organisation, clear goals will help to motivate and to keep your focus on what you want to achieve. Many companies work towards formulating a vision and mission as part of their strategic planning. Knowing what you are trying to achieve not only helps you to keep an eye on the target, but also makes it easier to know when you succeeded!</source>
-        <target state="translated"/>
+        <target state="translated">بغض النظر عن كونك تعمل مستقلا أو في مجموعة أو حتى مؤسسة رسمية، فسيفيد تحديد أهداف واضحة في التركيز على ما تسعى إليه. كثير من الشركات تعمل على وضع رؤية وهدف محدد أثناء مرحلة التخطيط، فمعرفة ما الذي تسعى لتحقيقه لا يفيد فقط في إبقاء هدفك نصب عينيك، بل يجعل من السهل تحديد معيار للنجاح.</target>
       </trans-unit>
       <trans-unit xml:space="preserve" approved="yes" id="If you are working as a volunteer, you should try to make your localisation work as much fun as possible. Set it as a secondary goal if you want.">
         <source>If you are working as a volunteer, you should try to make your localisation work as much fun as possible. Set it as a secondary goal if you want.</source>
-        <target state="translated"/>
+        <target state="translated">إذا كنت تعمل متطوعا فعليك أن تحاول جعل الأمر ممتعا، اجعل هذا هدفا ثانويا إذا أردت.</target>
       </trans-unit>
       <trans-unit xml:space="preserve" approved="yes" id="Setting goals to reach objectives">
         <source>Setting goals to reach objectives</source>
