@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-10-27 18:37+0200\n"
-"PO-Revision-Date: 2010-10-27 23:12+0300\n"
+"PO-Revision-Date: 2010-10-28 14:51+0300\n"
 "Last-Translator: Khaled Hosny <khaledhosny@eglug.org>\n"
 "Language-Team: Arabic <doc@arabeyes.org>\n"
 "Language: ar\n"
@@ -52,7 +52,6 @@ msgstr ""
 "على البعض الذي يفهم تلك اللغات، ويحرم الآخرين من استخدام التقنية أو الانتفاع "
 "بكل مزاياها."
 
-#, fuzzy
 msgid ""
 "This book explains how software can be <f0>localised</f0><f1> – the process "
 "whereby software is translated or adapted in some other way. It will empower "
@@ -63,8 +62,8 @@ msgid ""
 msgstr ""
 "يشرح هذا الكتاب أساليب <f0>توطين</f0> البرمجيات؛ أي ترجمتها وتطويعها "
 "لاحتياجات مختلف اللغات. يشرح الكتاب الأدوات المستخدمة في الترجمة والمسائل "
-"المتعلقة بترجمة البرمجيات إلى لغة جديدة لإتاحة التقنية للمتحدثين بتلك اللغة "
-"وإتاحة استخدام لغات أكثر في تقنيات المعلومات."
+"المتعلقة بترجمة البرمجيات إلى لغات جديدة. ترجمة البرمجيات تتيح التقنية "
+"للمتحدثين بتلك اللغة وتتيح استخدام لغات أكثر في تقنيات المعلومات."
 
 msgid ""
 "It is important to realise that even if we are able to use technology in our "
@@ -82,7 +81,6 @@ msgstr ""
 "في عصر العولمة الطاغية. لذا فتوطين البرمجيات لا يساعد فقط على إتاحة التقنية "
 "للعموم، بل ويساعد أيضا على إحياء اللغات والمحافظة على ثقافاتها."
 
-#, fuzzy
 msgid ""
 "This book specifically discusses the localisation of so-called <f0>Free and "
 "Open Source Software</f0><f1> (FOSS) – software that we are able to localise "
@@ -145,7 +143,6 @@ msgstr ""
 msgid "Licence"
 msgstr "الترخيص"
 
-#, fuzzy
 msgid ""
 "This book is licensed under the Creative Commons licence called “Attribution "
 "Non-Commercial Share Alike”:"
@@ -160,13 +157,13 @@ msgid "Content"
 msgstr "المحتويات"
 
 msgid "1"
-msgstr ""
+msgstr "1"
 
 msgid "Chapter 1: Background"
 msgstr "الفصل الأول: مقدمة"
 
 msgid "5"
-msgstr ""
+msgstr "5"
 
 msgid "Software localisation"
 msgstr "توطين البرمجيات"
@@ -175,7 +172,7 @@ msgid "Open Source localisation"
 msgstr "توطين البرمجيات الحرة"
 
 msgid "6"
-msgstr ""
+msgstr "6"
 
 msgid "Differences from normal translation"
 msgstr "الفرق بينها وبين الترجمة العادية"
@@ -184,13 +181,13 @@ msgid "Differences from commercial localisation"
 msgstr "الفرق بينها وبين التوطين بمقابل"
 
 msgid "7"
-msgstr ""
+msgstr "7"
 
 msgid "Chapter 2: Orientation"
 msgstr "الفصل الثاني: نظرة عامة"
 
 msgid "8"
-msgstr ""
+msgstr "8"
 
 msgid "What do you want to achieve?"
 msgstr "ما الذي تسعى لتحقيقه؟"
@@ -202,7 +199,7 @@ msgid "Your environment"
 msgstr "البيئة المحيطة"
 
 msgid "9"
-msgstr ""
+msgstr "9"
 
 msgid "Chapter 3: Before you start"
 msgstr ""
@@ -517,7 +514,6 @@ msgstr ""
 "أشهر البرمجيات في التسعينيات إلا ببضعة لغات صار من المعتاد اليوم أن تتوفر "
 "بعض البرمجيات بأكثر من ثلاثين لغة، بل وأكثر من </f0><f1>خمسين</f1> أحيانا."
 
-#, fuzzy
 msgid ""
 "Making software available in a new language allows a whole new group of "
 "people to use software who might not have been able to do so before. "
@@ -540,7 +536,6 @@ msgstr ""
 "استخدامك لغتك الأم في عالم المعلومات صورة من صور الحفاظ عليها وبث روح العصر "
 "فيها."
 
-#, fuzzy
 msgid ""
 "Although lots of companies sell computer software or only give you a licence "
 "to use their software under many restrictions, lots of software is "
@@ -570,7 +565,6 @@ msgstr ""
 "وللاطلاع أكثر على البرمجيات مفتوحة المصدر: "
 "<a1>http://opensource.org/docs/osd</a1>"
 
-#, fuzzy
 msgid ""
 "<f0>Free and Open Software is often abbreviated as FOSS – an abbreviation "
 "that is also used in this book. Software released under stricter licences "
@@ -647,7 +641,6 @@ msgstr ""
 "المستندات تنطبق أيضا على توطين البرمجيات، والخبرة بالترجمة تفيد أيضا في "
 "التوطين، وليس كل مبرمج يستطيع ترجمة البرمجيات لمجرد معرفته بالحوسبة."
 
-#, fuzzy
 msgid ""
 "However, there are several areas in which software translation is different "
 "from other types of translation. Although the text is often of a more "
@@ -660,9 +653,9 @@ msgid ""
 msgstr ""
 "لكن هناك بعض الاختلافات بين ترجمة البرمجيات وباقي أنواع الترجمة، منها "
 "الطبيعة التقنية للنصوص المترجمة لكنها ليست الاختلاف الوحيد، فالأدوات "
-"المستخدمة في الترجمة مختلفة، وهناك بعض القيود على الترجمة. خُصص فصل كامل في "
-"هذا الكتاب لمناقشة المسائل التقنية التي تظهر عن توطين البرمجيات (انظر ص "
-"<bf1>27</bf1>). لذا يجب أن يوضع في الاعتبار أن حتى أمهر المترجمين بحاجة إلى "
+"المستخدمة في الترجمة مختلفة، وهناك بعض القيود على الترجمة. كما خُصص فصل كامل "
+"في هذا الكتاب لمناقشة المسائل التقنية التي تظهر عن توطين البرمجيات (انظر ص "
+"<bf1>28</bf1>). لذا يجب أن يوضع في الاعتبار أن حتى أمهر المترجمين بحاجة إلى "
 "التمرس على المسائل التي تختص بها ترجمة البرمجيات."
 
 msgid ""
@@ -680,7 +673,6 @@ msgstr ""
 "البرنامج من شخص لآخر وقد يرى المستخدم الواجهة المترجمة في سياق غير الذي "
 "تراها أنت فيه."
 
-#, fuzzy
 msgid ""
 "If you are familiar with commercial localisation, you probably already saw "
 "that FOSS localisation can be quite different. Whether or not money is "
@@ -690,17 +682,16 @@ msgid ""
 msgstr ""
 "إذا كانت لقد خبرة بتوطين البرمجيات المملوكة، فعلى الأغلب لاحظت الاختلاف بينه "
 "وبين توطين البرمجيات الحرة. فوجود المال أو عدمه له أثر كبير على حافز "
-"المشاركة، فمع البرمجيات الحرة يتمتع المترجم بقدر أكبر من الحرية، كما لا "
-"يُفرض عليه عادة أسلوب عمل معين."
+"المشاركة، فمع البرمجيات الحرة يتمتع المترجم بقدر أكبر من الحرية، كما لا يفرض "
+"عليه المشروع أسلوب عمل معين في العادة."
 
-#, fuzzy
 msgid ""
 "There is often much closer contact between programmers and localisers in "
 "FOSS projects, and therefore you can usually get quick feedback on any "
 "questions or problems with the source text. Users and translators are also "
 "often in more direct contact, allowing feedback to reach you more directly."
 msgstr ""
-"عادة ما يتواصل المطورون والمترجمون في المشاريع الحرة بشكل مباشر، مما يتيح "
+"عادة ما يتواصل المبرمجون والمترجمون في المشاريع الحرة بشكل مباشر، مما يتيح "
 "سرعة في الإجابة عن أي استفسارات أو مشاكل تتعلق بالنص الأصلي. والمستخدمين "
 "والمترجمين أكثر قربا مما يتيح تبادلا مباشرا للآراء."
 
@@ -716,7 +707,6 @@ msgstr ""
 "كثيرا ما تتلقى المشاريع الحرة المشهورة مساهمات بلغات كثيرة، بل وأحيانا بلغات "
 "لا تجذب الاهتمام التجاري خارج عالم البرمجيات الحرة."
 
-#, fuzzy
 msgid ""
 "In terms of tools and file formats, obviously FOSS translation tools are the "
 "preferred tools to use for FOSS localisation. The PO format is by far the "
@@ -728,7 +718,7 @@ msgstr ""
 "وبالنسبة للأدوات يُفضل طبعا استخدام أدوات حرة لتوطين البرمجيات الحرة. نسق "
 "الملفات PO هو الأكثر شيوعا، ولأنه يحتوى على النص الأصلي بالإضافة إلى الترجمة "
 "(مثله مثل XLIFF) فالاهتمام أقل بإعادة الترجمة وتبادل ذواكر الترجمة. قسم "
-"“<bf0>عملية توطين بسيطة</bf0>” ص <bf1>43</bf1> يتناول مثالا على سير عملية "
+"“<bf0>عملية توطين بسيطة</bf0>” ص <bf1>44</bf1> يتناول مثالا على سير عملية "
 "التوطين."
 
 msgid "Orientation"
@@ -737,7 +727,6 @@ msgstr "نظرة عامة"
 msgid "Formulating objectives"
 msgstr "تحديد الأهداف"
 
-#, fuzzy
 msgid ""
 "As we saw in the previous section, there are many reasons to localise FOSS. "
 "Your reasons might be different from other contributors, but that usually "
@@ -802,7 +791,6 @@ msgstr ""
 "الأولويات. كلما حددت أهدافك بدقة استطعت تحديد أولويات المشاريع المختلفة "
 "وتحقيق أهدافك أسرع أو بنجاح أفضل."
 
-#, fuzzy
 msgid ""
 "Since you will try to reach your goals with limited resources (volunteers, "
 "money, time, etc.) you should plan for continuity and sustainability. Think "
@@ -816,7 +804,7 @@ msgstr ""
 "تحتم التخطيط لوسائل استدامة واستمرارية المشروع. فإذا أتيح المال سيكون عليك "
 "وضع ميزانية وملاحظة مدى الالتزام بها، وعليك أيضا حساب الوقت المستغرق لإنجاز "
 "العمل لتستطيع تنظيم الوقت بشكل أفضل. قسم “<bf0>الأولويات (عندما لا تستطيع "
-"عمل كل شيء)</bf0>” ص <bf1>51</bf1> يشرح بعضا من وسائل تقييم المشاريع وتحديد "
+"عمل كل شيء)</bf0>” ص <bf1>52</bf1> يناقش بعضا من وسائل تقييم المشاريع وتحديد "
 "أولوياتها."
 
 msgid ""
@@ -839,7 +827,6 @@ msgstr ""
 "اختر مهمة يمكنك أداؤها بسهولة في الوقت المتاح لك، إكمال المهمة سيُشعرك "
 "بالفخر ويحفزك أكثر."
 
-#, fuzzy
 msgid ""
 "<f0>Read the instructions. </f0><f1>You can often find a lot of advice to "
 "help you in a given situation. The </f1><t2/><f3>specific software you are "
@@ -850,9 +837,9 @@ msgid ""
 msgstr ""
 "<f0>اقرأ التعليمات.</f0> فكثيرا ما تجد بها نصائح تفيدك في مواقف معينة. فقد "
 "توفر البرمجية التي تترجمها تعليمات للمساعدة في الأجزاء الصعبة، أو قد يضع "
-"المبرمج تعليقات على جمل معينة لشرح مفاهيم غير واضحة. الاستعانة بدليل لقواعد "
-"الإملاء والنحو يساعدك في تخطي الأخطاء الشائعة ومشاكل النحو أو الإملاء التي "
-"قد تواجهك."
+"المبرمج تعليقات على جمل معينة لشرح مفاهيم غير واضحة. الاستعانة بدليل للقواعد "
+"اللغوية يساعدك في تخطي الأخطاء الشائعة ومشاكل النحو أو الإملاء التي قد "
+"تواجهك."
 
 msgid ""
 "<f0>Stay consistent. </f0><f1>Consistency is an important goal in "
@@ -874,7 +861,6 @@ msgstr ""
 "أسلوبك الخاص ولن يكون عليك تكرار أخطاء الآخرين، لكن لا تسعى للاختلاف لمجرد "
 "الاختلاف."
 
-#, fuzzy
 msgid ""
 "<f0>Be careful, but be bold. </f0><f1>This advice might sound like a "
 "contradiction, but try to balance these two opposing goals. You should be "
@@ -889,11 +875,12 @@ msgid ""
 "being bold.</f1>"
 msgstr ""
 "<f0>كن حريصا وجريئا.</f0> قد تبدو هذه النصيحة متناقضة، لكن حاول أن توازن بين "
-"هذه الهدفين المتضادين. يجب أن تكون حريصا في عملك وأن تسعى للأفضل. راجع "
-"الترجمة ولا تتردد في البحث والدراسة، وأحيانا يكون من الأفضل تأجيل الترجمة "
-"حتى تصل إلى فهم أفضل. لكن أحينا يكون عليك أن تمضي قدما وتصوغ مصطلحا جديدا أو "
-"تغير من عادة سيئة اكتسبها فريقك. من السهل عادة إصلاح الأخطاء في البرمجيات "
-"الحرة، وإذا كنت تتعلم من أخطائك فقد تستفيد كثيرا عدم المبالغة في الحرص."
+"هذه الهدفين المتضادين. يجب أن تكون حريصا في عملك وأن تسعى للأفضل. لا تتردد "
+"في البحث والدراسة، وتأكد أن تراجع أنت أو شخص آخر الترجمة. أحيانا يكون من "
+"الأفضل تأجيل الترجمة حتى تصل إلى فهم أفضل. لكن أحينا يكون عليك أن تمضي قدما "
+"وتصوغ مصطلحا جديدا أو تغير من عادة سيئة اكتسبها فريقك. من السهل عادة إصلاح "
+"الأخطاء في البرمجيات الحرة، وإذا كنت تتعلم من أخطائك فقد تستفيد كثيرا عدم "
+"المبالغة في الحرص."
 
 msgid ""
 "<f0>Expect criticism. </f0><f1>Unfortunately, not everyone will always "
@@ -1086,8 +1073,9 @@ msgstr ""
 "تجيدها. ويمكن أيضا الاستفادة من الأشخاص الذين لا يعرفون أي لغات أجنبية في "
 "أمور مثل الترويج للبرمجيات المترجمة أو اختبارها."
 
+#, fuzzy
 msgid "Orientate yourself"
-msgstr ""
+msgstr "تعرف على ما تترجمه"
 
 msgid ""
 "When you are ready to start to translate a specific piece of software, "
@@ -1276,7 +1264,6 @@ msgid ""
 "information:"
 msgstr ""
 
-#, fuzzy
 msgid "http://translate.sourceforge.net/wiki/guide/locales/glibc"
 msgstr ""
 
@@ -1401,9 +1388,8 @@ msgid ""
 "cases, we will write brand <t0/>names and product names unchanged."
 msgstr ""
 
-#, fuzzy
 msgid "Examples"
-msgstr "مثال"
+msgstr ""
 
 msgid ""
 "Here are some examples from Northern Sotho where capital letters are only "
@@ -2877,7 +2863,6 @@ msgid ""
 "also this article:"
 msgstr ""
 
-#, fuzzy
 msgid "http://translate.sourceforge.net/wiki/guide/translation/variables"
 msgstr ""
 
@@ -4233,9 +4218,8 @@ msgid ""
 "to others."
 msgstr ""
 
-#, fuzzy
 msgid "Licences"
-msgstr "الترخيص"
+msgstr ""
 
 msgid ""
 "Software is distributed under certain conditions which determines what you "
