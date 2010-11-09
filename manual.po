@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-10-27 18:37+0200\n"
-"PO-Revision-Date: 2010-11-09 01:51+0300\n"
+"PO-Revision-Date: 2010-11-09 16:35+0300\n"
 "Last-Translator: Khaled Hosny <khaledhosny@eglug.org>\n"
 "Language-Team: Arabic <doc@arabeyes.org>\n"
 "Language: ar\n"
@@ -289,34 +289,34 @@ msgid "23"
 msgstr "23"
 
 msgid "Chapter 6: Reuse"
-msgstr ""
+msgstr "الفصل السادس: إعادة الاستخدام"
 
 msgid "24"
-msgstr ""
+msgstr "24"
 
 msgid "When should translations be reused?"
-msgstr ""
+msgstr "متى يُعاد استخدام الترجمة؟"
 
 msgid "Some available sources"
-msgstr ""
+msgstr "مع المصادر المتاحة"
 
 msgid "25"
-msgstr ""
+msgstr "25"
 
 msgid "Some techniques and tools"
-msgstr ""
+msgstr "بعض الأساليب والأدوات"
 
 msgid "Translation memory, terminology and machine translation"
-msgstr ""
+msgstr "ذاكرة الترجمة ومسرد المصطلحات والترجمة الآلية"
 
 msgid "26"
-msgstr ""
+msgstr "26"
 
 msgid "Reuse in Virtaal"
-msgstr ""
+msgstr "إعادة الاستخدام في فِرتال"
 
 msgid "27"
-msgstr ""
+msgstr "27"
 
 msgid "Chapter 7: Technical issues"
 msgstr ""
