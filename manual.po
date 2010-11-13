@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-10-27 18:37+0200\n"
-"PO-Revision-Date: 2010-11-12 23:55+0300\n"
+"PO-Revision-Date: 2010-11-13 16:48+0300\n"
 "Last-Translator: Khaled Hosny <khaledhosny@eglug.org>\n"
 "Language-Team: Arabic <doc@arabeyes.org>\n"
 "Language: ar\n"
@@ -3802,112 +3802,112 @@ msgid "Rule 1, 2"
 msgstr "قاعدة 1 و 2"
 
 msgid "&View"
-msgstr "&Jump"
+msgstr "&View"
 
 msgid "Le&belela"
-msgstr "ت&نقّل"
+msgstr "Le&belela"
 
 msgid "&Lebelela"
-msgstr "&تنقّل"
+msgstr "&Lebelela"
 
 msgid "<f0>V</f0><f1>iew</f1>"
-msgstr "<f0>J</f0><ump"
+msgstr "<f0>V</f0><f1>iew</f1>"
 
 msgid "<f0>Le</f0><f1>b</f1><f2>elela</f2>"
-msgstr "ت<f0>ن</f0>قل"
+msgstr "<f0>Le</f0><f1>b</f1><f2>elela</f2>"
 
 msgid "Rule 3, 4"
 msgstr "قاعدة 3 و 4"
 
 msgid "~Tools"
-msgstr ""
+msgstr "~Tools"
 
 msgid "Di~tlabela"
-msgstr ""
+msgstr "Di~tlabela"
 
 msgid "~Ditlabela"
-msgstr ""
+msgstr "~Ditlabela"
 
 msgid "<f0>T</f0><f1>ools</f1>"
-msgstr ""
+msgstr "<f0>T</f0><f1>ools</f1>"
 
 msgid "<f0>Di</f0><f1>t</f1><f2>labela</f2>"
-msgstr ""
+msgstr "<f0>Di</f0><f1>t</f1><f2>labela</f2>"
 
 msgid "Rule 1, 3"
-msgstr ""
+msgstr "قاعدة 1 و 3"
 
 msgid "&Help"
-msgstr ""
+msgstr "&Help"
 
 msgid "<f0>T&hu</f0><f1>šo</f1>"
-msgstr ""
+msgstr "<f0>T&hu</f0><f1>šo</f1>"
 
 msgid "<f0>&Thu</f0><f1>šo</f1>"
-msgstr ""
+msgstr "<f0>&Thu</f0><f1>šo</f1>"
 
 msgid "<f0>H</f0><f1>elp</f1>"
-msgstr ""
+msgstr "<f0>H</f0><f1>elp</f1>"
 
 msgid "<f0>T</f0><f1>h</f1><f2>ušo</f2>"
-msgstr ""
+msgstr "<f0>T</f0><f1>h</f1><f2>ušo</f2>"
 
 msgid "Rule 1"
-msgstr ""
+msgstr "قاعدة 1"
 
 msgid "_Move"
-msgstr ""
+msgstr "_Move"
 
 msgid "Š_uthiša"
-msgstr ""
+msgstr "Š_uthiša"
 
 msgid "_Šuthiša"
-msgstr ""
+msgstr "_Šuthiša"
 
 msgid "<f0>M</f0><f1>ove</f1>"
-msgstr ""
+msgstr "<f0>M</f0><f1>ove</f1>"
 
 msgid "<f0>Š</f0><f1>u</f1><f2>thiša</f2>"
-msgstr ""
+msgstr "<f0>Š</f0><f1>u</f1><f2>thiša</f2>"
 
 msgid "Rule 8"
-msgstr ""
+msgstr "قاعدة 8"
 
 msgid "Zoom &100%"
-msgstr ""
+msgstr "Zoom &100%"
 
 msgid "<f0>Godi</f0><f1>š</f1><f2>a &100%</f2>"
-msgstr ""
+msgstr "<f0>Godi</f0><f1>š</f1><f2>a &100%</f2>"
 
 msgid "<f0>&Godi</f0><f1>š</f1><f2>a 100%</f2>"
-msgstr ""
+msgstr "<f0>&Godi</f0><f1>š</f1><f2>a 100%</f2>"
 
 msgid "<f0>Zoom </f0><f1>1</f1><f2>00%</f2>"
-msgstr ""
+msgstr "<f0>Zoom </f0><f1>1</f1><f2>00%</f2>"
 
 msgid "<f0>Godi</f0><f1>š</f1><f2>a </f2><f3>1</f3><f4>00%</f4>"
-msgstr ""
+msgstr "<f0>Godi</f0><f1>š</f1><f2>a </f2><f3>1</f3><f4>00%</f4>"
 
 msgid "Rule 11"
-msgstr ""
+msgstr "قاعدة 11"
 
 msgid "~Font Size"
-msgstr ""
+msgstr "~Font Size"
 
 msgid "Bogola bja ~fonte"
-msgstr ""
+msgstr "Bogola bja ~fonte"
 
 msgid "Bogola bja~fonte"
-msgstr ""
+msgstr "Bogola bja~fonte"
 
 msgid "F<f0>ont Size</f0>"
-msgstr ""
+msgstr "F<f0>ont Size</f0>"
 
 msgid "Bogola bja <f0>f</f0>onte"
-msgstr ""
+msgstr "Bogola bja <f0>f</f0>onte"
 
 msgid "Spaces"
-msgstr ""
+msgstr "المسافات"
 
 msgid "Review"
 msgstr "المراجعة"
