@@ -9,113 +9,111 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.8.0\n"
+"X-Generator: Translate Toolkit 1.7.0\n"
 
 # (poterminology) manual.tmx (231)
 msgid "language"
-msgstr "langue"
+msgstr ""
 
 # (poterminology) manual.tmx (227)
 msgid "software"
-msgstr "logiciel"
+msgstr ""
 
 # (poterminology) manual.tmx (106)
 msgid "text"
-msgstr "texte"
+msgstr ""
 
 # (poterminology) manual.tmx (91)
 msgid "help"
-msgstr "aide"
+msgstr ""
 
 # (poterminology) manual.tmx (87)
 msgid "localisation"
-msgstr "localisation"
+msgstr "توطين"
 
 # (poterminology) manual.tmx (81)
 msgid "translate"
-msgstr "traduire"
+msgstr ""
 
 # (poterminology) manual.tmx (51)
 msgid "page"
-msgstr "page"
+msgstr ""
 
 # (poterminology) manual.tmx (50)
 msgid "source"
-msgstr "source"
+msgstr ""
 
 # (poterminology) manual.tmx (52)
 msgid "FOSS"
-msgstr "logiciel libre et gratuit"
+msgstr "برمجيات حرة مفتوحة المصدر"
 
 # (poterminology) manual.tmx (53)
 msgid "translated"
-msgstr "traduit"
+msgstr ""
 
 # (poterminology) manual.tmx (52)
 msgid "terminology"
-msgstr "terminologie"
+msgstr ""
 
 # (poterminology) manual.tmx (48)
 msgid "program"
-msgstr "programme"
+msgstr ""
 
 # (poterminology) manual.tmx (81)
 msgid "term"
-msgstr "terme"
+msgstr "مصطلح"
 
 # (poterminology) manual.tmx (39)
 msgid "ensure"
-msgstr "assurer"
+msgstr ""
 
 # (poterminology) manual.tmx (50)
 msgid "people"
-msgstr "gens"
+msgstr ""
 
 # (poterminology) manual.tmx (44)
 msgid "virtaal"
-msgstr "virtaal"
+msgstr "فِرتال"
 
 # (poterminology) manual.tmx (37)
 msgid "translating"
-msgstr "traduisant"
+msgstr ""
 
 # (poterminology) manual.tmx (44)
 msgid "pootle"
-msgstr "pootle"
+msgstr "بوتل"
 
 # (poterminology) manual.tmx (40)
 msgid "tool"
-msgstr "outil"
+msgstr "أداة"
 
 # (poterminology) manual.tmx (45)
 msgid "version"
-msgstr "version"
+msgstr ""
 
 # (poterminology) manual.tmx (38)
-#, fuzzy
 msgid "review"
-msgstr "examen"
+msgstr ""
 
 # (poterminology) manual.tmx (32)
 msgid "lot"
-msgstr "beaucoup"
+msgstr ""
 
 # (poterminology) manual.tmx (31)
-#, fuzzy
 msgid "common"
-msgstr "commun, courant"
+msgstr ""
 
 # (poterminology) manual.tmx (35)
 msgid "message"
-msgstr "message"
+msgstr ""
 
 # (poterminology) manual.tmx (39)
 msgid "team"
-msgstr "équipe"
+msgstr ""
 
 # (poterminology) manual.tmx (33)
 msgid "section"
-msgstr "section"
+msgstr "قسم"
 
 # (poterminology) manual.tmx (29)
 #. (poterminology) manual.tmx (29)
@@ -124,68 +122,69 @@ msgstr ""
 
 # (poterminology) manual.tmx (38)
 msgid "system"
-msgstr "système"
+msgstr ""
 
 # (poterminology) manual.tmx (26)
 msgid "correct"
-msgstr "correct"
+msgstr ""
 
 # (poterminology) manual.tmx (30)
 msgid "issue"
-msgstr "question"
+msgstr ""
 
 # (poterminology) manual.tmx (25)
 msgid "specific"
-msgstr "spécifique"
+msgstr ""
 
 # (poterminology) manual.tmx (32)
 msgid "character"
-msgstr "caractère, signe"
+msgstr "محرف"
 
 # (poterminology) manual.tmx (26)
 msgid "quality"
-msgstr "qualité"
+msgstr ""
 
 # (poterminology) manual.tmx (26)
 msgid "style"
-msgstr "style"
+msgstr ""
 
 # (poterminology) manual.tmx (22)
 msgid "developer"
-msgstr "développer"
+msgstr ""
 
 # (poterminology) manual.tmx (35)
 msgid "list"
-msgstr "liste"
+msgstr ""
 
 # (poterminology) manual.tmx (24)
 msgid "start"
-msgstr "commencement, début"
+msgstr ""
 
 # (poterminology) manual.tmx (22)
 msgid "existing"
-msgstr "existant"
+msgstr ""
 
 # (poterminology) manual.tmx (19)
 msgid "form"
-msgstr "forme"
+msgstr ""
 
 # (poterminology) manual.tmx (18)
 msgid "read"
-msgstr "lire"
+msgstr ""
 
 # (poterminology) manual.tmx (19)
 msgid "refer"
-msgstr "faire référence à"
+msgstr ""
 
 # (poterminology) manual.tmx (29)
 msgid "string"
-msgstr "séquence, chaîne"
+msgstr ""
 
 # (poterminology) manual.tmx (21)
 #. (poterminology) manual.tmx (21)
+#, fuzzy
 msgid "accelerator"
-msgstr ""
+msgstr "مُسَرِّع"
 
 # (poterminology) manual.tmx (18)
 #. (poterminology) manual.tmx (18)
@@ -224,892 +223,891 @@ msgstr ""
 
 # (poterminology) manual.tmx (19)
 msgid "computer"
-msgstr "ordinateur"
+msgstr ""
 
 # (poterminology) manual.tmx (15)
 msgid "create"
-msgstr "créer"
+msgstr ""
 
 # (poterminology) manual.tmx (16)
-#, fuzzy
 msgid "doesn’t"
-msgstr "ne pas"
+msgstr ""
 
 # (poterminology) manual.tmx (15)
 msgid "localised"
-msgstr "localisé"
+msgstr "مترجَم"
 
 # (poterminology) manual.tmx (23)
 msgid "names"
-msgstr "noms"
+msgstr ""
 
 # (poterminology) manual.tmx (22)
 msgid "plural"
-msgstr "pluriel"
+msgstr "جمع"
 
 # (poterminology) manual.tmx (19)
 msgid "testing"
-msgstr "test"
+msgstr ""
 
 # (poterminology) manual.tmx (16)
 msgid "web"
-msgstr "web"
+msgstr ""
 
 # (poterminology) manual.tmx (18)
 msgid "date"
-msgstr "date"
+msgstr ""
 
 # (poterminology) manual.tmx (14)
 msgid "save"
-msgstr "enregistrer"
+msgstr ""
 
 # (poterminology) manual.tmx (16)
 msgid "technical"
-msgstr "technique"
+msgstr "تقني"
 
 # (poterminology) manual.tmx (16)
 msgid "complete"
-msgstr "complet"
+msgstr ""
 
 # (poterminology) manual.tmx (14)
 msgid "examples"
-msgstr "exemples"
+msgstr ""
 
 # (poterminology) manual.tmx (15)
 msgid "GNOME"
-msgstr "GNOME"
+msgstr "جنوم"
 
 # (poterminology) manual.tmx (13)
 msgid "realise"
-msgstr "réaliser"
+msgstr ""
 
 # (poterminology) manual.tmx (15)
 msgid "writing"
-msgstr "écriture"
+msgstr ""
 
 # (poterminology) manual.tmx (12)
 msgid "chapter"
-msgstr "chapitre"
+msgstr "فصل"
 
 # (poterminology) manual.tmx (12)
 msgid "extra"
-msgstr "supplémentaire"
+msgstr ""
 
 # (poterminology) manual.tmx (13)
 msgid "follow"
-msgstr "suivre"
+msgstr ""
 
 # (poterminology) manual.tmx (15)
 msgid "free"
-msgstr "libre"
+msgstr ""
 
 # (poterminology) manual.tmx (12)
 msgid "improve"
-msgstr "améliorer"
+msgstr ""
 
 # (poterminology) manual.tmx (12)
 msgid "involved"
-msgstr "impliqué"
+msgstr ""
 
 # (poterminology) manual.tmx (13)
 msgid "programmer"
-msgstr "programmeur / programmeuse"
+msgstr ""
 
 # (poterminology) manual.tmx (15)
 msgid "question"
-msgstr "question"
+msgstr ""
 
 # (poterminology) manual.tmx (12)
 msgid "window"
-msgstr "fenêtre"
+msgstr ""
 
 # (poterminology) manual.tmx (14)
 msgid "world"
-msgstr "monde"
+msgstr ""
 
 # (poterminology) manual.tmx (19)
 msgid "access"
-msgstr "accéder à"
+msgstr ""
 
 # (poterminology) manual.tmx (12)
 msgid "bad"
-msgstr "mauvais"
+msgstr ""
 
 # (poterminology) manual.tmx (11)
 msgid "bit"
-msgstr "octet"
+msgstr ""
 
 # (poterminology) manual.tmx (11)
 msgid "correctly"
-msgstr "correctement"
+msgstr ""
 
 # (poterminology) manual.tmx (13)
 msgid "download"
-msgstr "télécharger"
+msgstr ""
 
 # (poterminology) manual.tmx (11)
 msgid "leave"
-msgstr "laisser, quitter"
+msgstr ""
 
 # (poterminology) manual.tmx (13)
 msgid "mark"
-msgstr "marquer"
+msgstr ""
 
 # (poterminology) manual.tmx (11)
 msgid "network"
-msgstr "réseau"
+msgstr ""
 
 # (poterminology) manual.tmx (13)
 msgid "reason"
-msgstr "raison"
+msgstr ""
 
 # (poterminology) manual.tmx (11)
 msgid "reuse"
-msgstr "réutiliser"
+msgstr ""
 
 # (poterminology) manual.tmx (11)
 msgid "select"
-msgstr "sélectionner"
+msgstr ""
 
 # (poterminology) manual.tmx (15)
 msgid "sentence"
-msgstr "phrase"
+msgstr ""
 
 # (poterminology) manual.tmx (11)
 msgid "won’t"
-msgstr "ne va pas"
+msgstr ""
 
 # (poterminology) manual.tmx (11)
 msgid "audience"
-msgstr "assistance"
+msgstr "جمهور"
 
 # (poterminology) manual.tmx (10)
 msgid "contribution"
-msgstr "contribution"
+msgstr ""
 
 # (poterminology) manual.tmx (11)
 msgid "Don’t"
-msgstr "ne pas"
+msgstr ""
 
 # (poterminology) manual.tmx (10)
 msgid "familiar"
-msgstr "familier"
+msgstr ""
 
 # (poterminology) manual.tmx (10)
 msgid "hard"
-msgstr "dur"
+msgstr ""
 
 # (poterminology) manual.tmx (17)
 msgid "image"
-msgstr "image"
+msgstr ""
 
 # (poterminology) manual.tmx (10)
 msgid "running"
-msgstr "exécution"
+msgstr ""
 
 # (poterminology) manual.tmx (13)
 msgid "typing"
-msgstr "saisie"
+msgstr ""
 
 # (poterminology) manual.tmx (9)
 msgid "benefit"
-msgstr "profiter à"
+msgstr ""
 
 # (poterminology) manual.tmx (9)
 msgid "can’t"
-msgstr "ne peut pas"
+msgstr ""
 
 # (poterminology) manual.tmx (10)
 msgid "firefox"
-msgstr "firefox"
+msgstr "فَيَرفُكس"
 
 # (poterminology) manual.tmx (19)
 msgid "font"
-msgstr "police"
+msgstr "خط"
 
 # (poterminology) manual.tmx (9)
 msgid "interface"
-msgstr "interface"
+msgstr ""
 
 # (poterminology) manual.tmx (10)
 msgid "KDE"
-msgstr "KDE"
+msgstr "كدي"
 
 # (poterminology) manual.tmx (9)
 msgid "line"
-msgstr "ligne"
+msgstr ""
 
 # (poterminology) manual.tmx (14)
 msgid "menu"
-msgstr "menu"
+msgstr "قائمة"
 
 # (poterminology) manual.tmx (11)
 msgid "move"
-msgstr "déplacer"
+msgstr ""
 
 # (poterminology) manual.tmx (10)
 msgid "previous"
-msgstr "précédent"
+msgstr ""
 
 # (poterminology) manual.tmx (9)
 msgid "reference"
-msgstr "référence"
+msgstr "تفضيل"
 
 # (poterminology) manual.tmx (11)
 msgid "release"
-msgstr "sortie, parution"
+msgstr "إصدار"
 
 # (poterminology) manual.tmx (10)
 msgid "represent"
-msgstr "réprésenter"
+msgstr ""
 
 # (poterminology) manual.tmx (9)
 msgid "shown"
-msgstr "montré"
+msgstr ""
 
 # (poterminology) manual.tmx (9)
 msgid "source software"
-msgstr "logiciel de source"
+msgstr ""
 
 # (poterminology) manual.tmx (10)
 msgid "submit"
-msgstr "soumettre"
+msgstr "أرسل \\ أوِدع"
 
 # (poterminology) manual.tmx (11)
 msgid "toolkit"
-msgstr "trousse d'outils"
+msgstr "عُدّة أدوات"
 
 # (poterminology) manual.tmx (14)
 msgid "version control"
-msgstr "contrôle de version"
+msgstr "إدارة الإصدارات"
 
 # (poterminology) manual.tmx (12)
 msgid "volunteer"
-msgstr "volontaire, bénévole"
+msgstr "متطوع"
 
 # (poterminology) manual.tmx (10)
 msgid "written"
-msgstr "écrit"
+msgstr ""
 
 # (poterminology) manual.tmx (8)
 msgid "adapt"
-msgstr "adapter"
+msgstr ""
 
 # (poterminology) manual.tmx (9)
 msgid "automatically"
-msgstr "automatiquement"
+msgstr ""
 
 # (poterminology) manual.tmx (10)
 msgid "back"
-msgstr "retour"
+msgstr ""
 
 # (poterminology) manual.tmx (15)
 msgid "code"
-msgstr "code"
+msgstr ""
 
 # (poterminology) manual.tmx (9)
 msgid "difference"
-msgstr "différence"
+msgstr ""
 
 # (poterminology) manual.tmx (8)
 msgid "earlier"
-msgstr "précédent"
+msgstr ""
 
 # (poterminology) manual.tmx (11)
 msgid "escape"
-msgstr "échapper"
+msgstr ""
 
 # (poterminology) manual.tmx (8)
 msgid "existing translations"
-msgstr "traductions existantes"
+msgstr ""
 
 # (poterminology) manual.tmx (8)
 msgid "feel"
-msgstr "sentir"
+msgstr ""
 
 # (poterminology) manual.tmx (8)
 msgid "grammar"
-msgstr "grammaire"
+msgstr ""
 
 # (poterminology) manual.tmx (9)
 msgid "idea"
-msgstr "idée"
+msgstr ""
 
 # (poterminology) manual.tmx (9)
 msgid "installer"
-msgstr "programme d'installation"
+msgstr "مثبّت"
 
 # (poterminology) manual.tmx (19)
 msgid "key"
-msgstr "touche"
+msgstr ""
 
 # (poterminology) manual.tmx (10)
 msgid "license"
-msgstr "licence"
+msgstr "ترخيص"
 
 # (poterminology) manual.tmx (8)
 msgid "link"
-msgstr "lien"
+msgstr "وصلة"
 
 # (poterminology) manual.tmx (8)
 msgid "localiser"
-msgstr "localisateur"
+msgstr "مترجِم"
 
 # (poterminology) manual.tmx (9)
 msgid "original text"
-msgstr "texte original"
+msgstr ""
 
 # (poterminology) manual.tmx (10)
 msgid "placeholder"
-msgstr "espace réservé"
+msgstr ""
 
 # (poterminology) manual.tmx (11)
 msgid "press"
-msgstr "presse"
+msgstr ""
 
 # (poterminology) manual.tmx (9)
 msgid "principles"
-msgstr "principes"
+msgstr ""
 
 # (poterminology) manual.tmx (8)
 msgid "run"
-msgstr "exécuter"
+msgstr ""
 
 # (poterminology) manual.tmx (7)
 msgid "add"
-msgstr "ajouter"
+msgstr ""
 
 # (poterminology) manual.tmx (8)
 msgid "attention"
-msgstr "attention"
+msgstr ""
 
 # (poterminology) manual.tmx (12)
 msgid "capitalisation"
-msgstr "capitalisation, en majuscules"
+msgstr ""
 
 # (poterminology) manual.tmx (7)
 msgid "connection"
-msgstr "connexion"
+msgstr ""
 
 # (poterminology) manual.tmx (8)
 msgid "consistent"
-msgstr "consistant"
+msgstr ""
 
 # (poterminology) manual.tmx (7)
 msgid "context"
-msgstr "contexte"
+msgstr ""
 
 # (poterminology) manual.tmx (7)
 msgid "copy"
-msgstr "copie"
+msgstr ""
 
 # (poterminology) manual.tmx (7)
 msgid "discuss"
-msgstr "discuter"
+msgstr ""
 
 # (poterminology) manual.tmx (8)
 msgid "discussion"
-msgstr "discussion"
+msgstr ""
 
 # (poterminology) manual.tmx (12)
 msgid "e-mail"
-msgstr "e-mail, courriel"
+msgstr ""
 
 # (poterminology) manual.tmx (7)
 msgid "easier"
-msgstr "plus facile"
+msgstr ""
 
 # (poterminology) manual.tmx (7)
 msgid "FOSS localisation"
-msgstr "localisation de logiciels libres et gratuits"
+msgstr ""
 
 # (poterminology) manual.tmx (7)
 msgid "initially"
-msgstr "initialement"
+msgstr ""
 
 # (poterminology) manual.tmx (9)
 msgid "instructions"
-msgstr "instructions"
+msgstr ""
 
 # (poterminology) manual.tmx (8)
 msgid "keyboard"
-msgstr "clavier"
+msgstr ""
 
 # (poterminology) manual.tmx (13)
 msgid "locale"
-msgstr "locale"
+msgstr "محلية"
 
 # (poterminology) manual.tmx (8)
 msgid "localise"
-msgstr "localiser"
+msgstr ""
 
 # (poterminology) manual.tmx (13)
 msgid "machine translation"
-msgstr "traduction assistée par ordinateur, traduction automatique"
+msgstr ""
 
 # (poterminology) manual.tmx (7)
 msgid "marker"
-msgstr "marqueur"
+msgstr ""
 
 # (poterminology) manual.tmx (8)
 msgid "marketing"
-msgstr "marketing"
+msgstr ""
 
 # (poterminology) manual.tmx (7)
 msgid "mentioned"
-msgstr "mentionné"
+msgstr ""
 
 # (poterminology) manual.tmx (7)
 msgid "prefer"
-msgstr "préférer"
+msgstr ""
 
 # (poterminology) manual.tmx (8)
 msgid "programming"
-msgstr "programmation"
+msgstr ""
 
 # (poterminology) manual.tmx (7)
 msgid "resource"
-msgstr "ressource"
+msgstr "مورد"
 
 # (poterminology) manual.tmx (7)
 msgid "service"
-msgstr "service"
+msgstr "خدمة"
 
 # (poterminology) manual.tmx (9)
 msgid "short"
-msgstr "court"
+msgstr ""
 
 # (poterminology) manual.tmx (9)
 msgid "space"
-msgstr "espace"
+msgstr ""
 
 # (poterminology) manual.tmx (8)
 msgid "step"
-msgstr "pas, étape"
+msgstr ""
 
 # (poterminology) manual.tmx (7)
 msgid "target audience"
-msgstr "public cible"
+msgstr ""
 
 # (poterminology) manual.tmx (7)
 msgid "true"
-msgstr "vrai"
+msgstr ""
 
 # (poterminology) manual.tmx (8)
 msgid "untranslated"
-msgstr "non traduit"
+msgstr ""
 
 # (poterminology) manual.tmx (5)
 msgid "background"
-msgstr "arrière-plan"
+msgstr ""
 
 # (poterminology) manual.tmx (6)
 msgid "title"
-msgstr "titre"
+msgstr ""
 
 # (poterminology) manual.tmx (7)
 msgid "transliteration"
-msgstr "translittération"
+msgstr ""
 
 # (poterminology) manual.tmx (7)
 msgid "wikipedia"
-msgstr "wikipedia"
+msgstr ""
 
 # (poterminology) manual.tmx (4)
 msgid "&file"
-msgstr "&fichier"
+msgstr ""
 
 # (poterminology) manual.tmx (4)
 msgid "automated review"
-msgstr "revue automatique"
+msgstr ""
 
 # (poterminology) manual.tmx (4)
 msgid "content"
-msgstr "contenu"
+msgstr ""
 
 # (poterminology) manual.tmx (4)
 msgid "description"
-msgstr "description"
+msgstr ""
 
 # (poterminology) manual.tmx (6)
 msgid "english text"
-msgstr "texte anglais"
+msgstr ""
 
 # (poterminology) manual.tmx (4)
 msgid "network connection"
-msgstr "connexion de réseau"
+msgstr ""
 
 # (poterminology) manual.tmx (4)
 msgid "reordering"
-msgstr "réorganiser"
+msgstr ""
 
 # (poterminology) manual.tmx (5)
 msgid "searching"
-msgstr "recherche"
+msgstr ""
 
 # (poterminology) manual.tmx (4)
 msgid "secure"
-msgstr "sécurisé"
+msgstr ""
 
 # (poterminology) manual.tmx (4)
 msgid "thušo"
-msgstr "thušo"
+msgstr ""
 
 # (poterminology) manual.tmx (4)
 msgid "tux paint"
-msgstr "tux paint"
+msgstr ""
 
 # (poterminology) manual.tmx (3)
 msgid "localisation projects"
-msgstr "projets de localisation"
+msgstr ""
 
 # (poterminology) manual.tmx (3)
 msgid "OpenOffice.org"
-msgstr "OpenOffice.org"
+msgstr ""
 
 # (poterminology) manual.tmx (3)
 msgid "special character"
-msgstr "signe spécial, caractère spécial"
+msgstr ""
 
 # (poterminology) manual.tmx (3)
 msgid "TMX"
-msgstr "TMX"
+msgstr ""
 
 # (poterminology) manual.tmx (3)
 msgid "alt"
-msgstr "alt"
+msgstr ""
 
 # (poterminology) manual.tmx (2)
 msgid "beyond mere translation"
-msgstr "au delà de la simple traduction"
+msgstr ""
 
 # (poterminology) manual.tmx (2)
 msgid "bogolo bja fonte"
-msgstr "bogolo bja fonte"
+msgstr ""
 
 # (poterminology) manual.tmx (2)
 msgid "counting and estimating"
-msgstr "calcul et estimation"
+msgstr ""
 
 # (poterminology) manual.tmx (2)
 msgid "manual review"
-msgstr "revue manuelle"
+msgstr ""
 
 # (poterminology) manual.tmx (2)
 msgid "navigation"
-msgstr "navigation"
+msgstr ""
 
 # (poterminology) manual.tmx (2)
 msgid "normal translation"
-msgstr "traduction normale"
+msgstr ""
 
 # (poterminology) manual.tmx (2)
 msgid "number and date formats"
-msgstr "formats des chiffres et dates"
+msgstr ""
 
 # (poterminology) manual.tmx (2)
 msgid "project case studies"
-msgstr "études de cas de projets"
+msgstr ""
 
 # (poterminology) manual.tmx (2)
 msgid "proper plurals"
-msgstr "pluriels propres"
+msgstr ""
 
 # (poterminology) manual.tmx (2)
 msgid "recommended"
-msgstr "recommandé"
+msgstr ""
 
 # (poterminology) manual.tmx (2)
 msgid "testing and review"
-msgstr "test et revue"
+msgstr ""
 
 # (poterminology) manual.tmx (315)
 msgid "translation"
-msgstr "traduction"
+msgstr ""
 
 # (poterminology) manual.tmx (180)
 msgid "project"
-msgstr "projet"
+msgstr ""
 
 # (poterminology) manual.tmx (138)
 msgid "file"
-msgstr "fichier"
+msgstr ""
 
 # (poterminology) manual.tmx (71)
 msgid "user"
-msgstr "utilisateur"
+msgstr ""
 
 # (poterminology) manual.tmx (54)
 msgid "time"
-msgstr "temps"
+msgstr ""
 
 # (poterminology) manual.tmx (57)
 msgid "english"
-msgstr "anglais"
+msgstr ""
 
 # (poterminology) manual.tmx (41)
 msgid "translator"
-msgstr "traducteur / traductrice"
+msgstr ""
 
 # (poterminology) manual.tmx (35)
 msgid "original"
-msgstr "original"
+msgstr ""
 
 # (poterminology) manual.tmx (50)
 msgid "variable"
-msgstr "variable"
+msgstr ""
 
 # (poterminology) manual.tmx (45)
 msgid "word"
-msgstr "mot"
+msgstr ""
 
 # (poterminology) manual.tmx (30)
 msgid "information"
-msgstr "information"
+msgstr ""
 
 # (poterminology) manual.tmx (35)
 msgid "application"
-msgstr "programme"
+msgstr "تطبيق"
 
 # (poterminology) manual.tmx (29)
 msgid "check"
-msgstr "vérifier"
+msgstr ""
 
 # (poterminology) manual.tmx (25)
 msgid "mind"
-msgstr "esprit"
+msgstr ""
 
 # (poterminology) manual.tmx (26)
 msgid "FOSS projects"
-msgstr "projets de logiciels libres et gratuits"
+msgstr ""
 
 # (poterminology) manual.tmx (36)
 msgid "letter"
-msgstr "lettre"
+msgstr ""
 
 # (poterminology) manual.tmx (23)
 msgid "source text"
-msgstr "texte de source"
+msgstr "(النص) الأصل"
 
 # (poterminology) manual.tmx (26)
 msgid "error"
-msgstr "erreur"
+msgstr ""
 
 # (poterminology) manual.tmx (20)
 msgid "target"
-msgstr "cible"
+msgstr ""
 
 # (poterminology) manual.tmx (21)
 msgid "rule"
-msgstr "règle"
+msgstr ""
 
 # (poterminology) manual.tmx (17)
 msgid "isn’t"
-msgstr "n'est pas"
+msgstr ""
 
 # (poterminology) manual.tmx (21)
 msgid "product"
-msgstr "produit"
+msgstr ""
 
 # (poterminology) manual.tmx (17)
 msgid "book"
-msgstr "livre"
+msgstr ""
 
 # (poterminology) manual.tmx (17)
 msgid "documentation"
-msgstr "documentation"
+msgstr ""
 
 # (poterminology) manual.tmx (21)
 msgid "goal"
-msgstr "but"
+msgstr ""
 
 # (poterminology) manual.tmx (21)
 msgid "mistake"
-msgstr "erreur, faute"
+msgstr ""
 
 # (poterminology) manual.tmx (16)
 msgid "no"
-msgstr "non"
+msgstr ""
 
 # (poterminology) manual.tmx (16)
 msgid "remember"
-msgstr "se rappeler"
+msgstr ""
 
 # (poterminology) manual.tmx (16)
 msgid "single"
-msgstr "unique"
+msgstr ""
 
 # (poterminology) manual.tmx (28)
 msgid "tag"
-msgstr "balise"
+msgstr ""
 
 # (poterminology) manual.tmx (17)
 msgid "understand"
-msgstr "comprendre"
+msgstr ""
 
 # (poterminology) manual.tmx (14)
 msgid "display"
-msgstr "afficher, affichage"
+msgstr ""
 
 # (poterminology) manual.tmx (13)
 msgid "feature"
-msgstr "trait"
+msgstr ""
 
 # (poterminology) manual.tmx (15)
 msgid "memory"
-msgstr "mémoire"
+msgstr ""
 
 # (poterminology) manual.tmx (13)
 msgid "piece"
-msgstr "piéce"
+msgstr ""
 
 # (poterminology) manual.tmx (13)
 msgid "software localisation"
-msgstr "localisation de logiciels"
+msgstr ""
 
 # (poterminology) manual.tmx (14)
 msgid "avoid"
-msgstr "éviter"
+msgstr ""
 
 # (poterminology) manual.tmx (20)
 msgid "control"
-msgstr "contrôle, contrôler"
+msgstr ""
 
 # (poterminology) manual.tmx (14)
 msgid "meaning"
-msgstr "sens, signification"
+msgstr ""
 
 # (poterminology) manual.tmx (12)
 msgid "popular"
-msgstr "populaire"
+msgstr "مشهور"
 
 # (poterminology) manual.tmx (13)
 msgid "process"
-msgstr "processus"
+msgstr ""
 
 # (poterminology) manual.tmx (13)
 msgid "translation memory"
-msgstr "mémoire de traduction"
+msgstr ""
 
 # (poterminology) manual.tmx (14)
 msgid "spelling"
-msgstr "orthographe"
+msgstr ""
 
 # (poterminology) manual.tmx (11)
 msgid "contribute"
-msgstr "contribuer"
+msgstr ""
 
 # (poterminology) manual.tmx (13)
 msgid "country"
-msgstr "pays"
+msgstr ""
 
 # (poterminology) manual.tmx (10)
 msgid "document"
-msgstr "document"
+msgstr "مستند"
 
 # (poterminology) manual.tmx (12)
 msgid "mozilla"
-msgstr "mozilla"
+msgstr "موزيلا"
 
 # (poterminology) manual.tmx (10)
 msgid "online"
-msgstr "en ligne"
+msgstr ""
 
 # (poterminology) manual.tmx (11)
 msgid "simple"
-msgstr "simple"
+msgstr ""
 
 # (poterminology) manual.tmx (19)
 msgid "suggestion"
-msgstr "suggestion"
+msgstr ""
 
 # (poterminology) manual.tmx (14)
 msgid "test"
-msgstr "tester"
+msgstr ""
 
 # (poterminology) manual.tmx (10)
 msgid "translation tools"
-msgstr "outils de traduction"
+msgstr ""
 
 # (poterminology) manual.tmx (9)
 msgid "aware"
-msgstr "au courant, conscient de"
+msgstr ""
 
 # (poterminology) manual.tmx (10)
 msgid "pootle server"
-msgstr "serveur pootle"
+msgstr ""
 
 # (poterminology) manual.tmx (9)
 msgid "quality checks"
-msgstr "contrôles de qualité"
+msgstr ""
 
 # (poterminology) manual.tmx (11)
 msgid "translate toolkit"
-msgstr "traduire la trousse d'outils"
+msgstr "عُدّة الترجمة"
 
 # (poterminology) manual.tmx (8)
 msgid "allowed"
-msgstr "autorisé"
+msgstr ""
 
 # (poterminology) manual.tmx (9)
 msgid "amount"
-msgstr "montant"
+msgstr ""
 
 # (poterminology) manual.tmx (9)
 msgid "attribute"
-msgstr "attribut, attribuer"
+msgstr ""
 
 # (poterminology) manual.tmx (9)
 msgid "consistency"
-msgstr "consistance, cohérence"
+msgstr ""
 
 # (poterminology) manual.tmx (8)
 msgid "fun"
-msgstr "ludique"
+msgstr ""
 
 # (poterminology) manual.tmx (9)
 msgid "intended"
-msgstr "destiné"
+msgstr ""
 
 # (poterminology) manual.tmx (8)
 msgid "note"
-msgstr "note"
+msgstr ""
 
 # (poterminology) manual.tmx (8)
 msgid "open source software"
-msgstr "logiciel libre"
+msgstr ""
 
 # (poterminology) manual.tmx (12)
 msgid "option"
-msgstr "option"
+msgstr ""
 
 # (poterminology) manual.tmx (8)
 msgid "task"
-msgstr "tâche"
+msgstr ""
 
 # (poterminology) manual.tmx (7)
 msgid "arabic"
-msgstr "arabe"
+msgstr ""
 
 # (poterminology) manual.tmx (8)
 msgid "brand"
-msgstr "marque"
+msgstr ""
 
 # (poterminology) manual.tmx (8)
 msgid "concept"
-msgstr "concept"
+msgstr ""
 
 # (poterminology) manual.tmx (8)
 msgid "contributors"
-msgstr "contributeurs"
+msgstr ""
 
 # (poterminology) manual.tmx (8)
 msgid "convention"
-msgstr "convention"
+msgstr ""
 
 # (poterminology) manual.tmx (10)
 msgid "debian"
-msgstr "debian"
+msgstr "دبيان"
 
 # (poterminology) manual.tmx (8)
 #. (poterminology) manual.tmx (8)
@@ -1129,7 +1127,7 @@ msgstr ""
 # (poterminology) manual.tmx (10)
 #. (poterminology) manual.tmx (10)
 msgid "GTK+"
-msgstr ""
+msgstr "ج‌ت‌ك+"
 
 # (poterminology) manual.tmx (7)
 #. (poterminology) manual.tmx (7)
@@ -1199,7 +1197,7 @@ msgstr ""
 # (poterminology) manual.tmx (7)
 #. (poterminology) manual.tmx (7)
 msgid "orthography"
-msgstr ""
+msgstr "نظام الكتابة"
 
 # (poterminology) manual.tmx (6)
 #. (poterminology) manual.tmx (6)
