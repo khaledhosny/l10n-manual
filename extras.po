@@ -1,0 +1,82 @@
+#. extracted from extras.csv
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-11-23 10:58+0200\n"
+"PO-Revision-Date: 2010-11-27 05:35+0200\n"
+"Last-Translator: Khaled Hosny <khaledhosny@eglug.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n>=3 && "
+"n<=10 ? 3 : n>=11 && n<=99 ? 4 : 5;\n"
+"X-Generator: Pootle 2.1.3\n"
+
+msgid "Effecting Change Through Localisation"
+msgstr "إحداث التغيير بتوطين المعلوماتية"
+
+msgid "Localisation guide for Free and Open Source Software"
+msgstr "دَلِيلٌ لِتَوطِينِ البَرمَجِيَّاتِ الحُرَّةِ مفتوحةِ المَصدَرِ"
+
+msgid ""
+"Our modern world is rapidly converging on a digital age. At the same time "
+"many of the world's marginalised languages are under pressure from dominant "
+"languages. For our languages to remain robust and relevant they must make "
+"the leap into modern technology."
+msgstr ""
+"يدخل عالمنا بسرعة إلى عصره الرقمي، و يتواكب مع هذا أن عديدا من لغات العالم "
+"المُهمَّشة ترزح تحت ضغط من اللغات السائدة، و لأجل أن تظَّل لغاتنا حيّة و "
+"مفيدة ينبغي أن ندفعها إلى مجالات التقنية الحديثة."
+
+msgid ""
+"This book guides native speakers through the task of translating computer "
+"software into local languages, empowering them to take their languages into "
+"the digital age."
+msgstr ""
+"القصد من هذا الدليل إرشاد المعنيين بترجمة برمجيات الحواسيب إلى لغاتهم، و "
+"تمكينهم من دفع لغاتهم إلى العصر الرَّقميّ."
+
+msgid "Contact:"
+msgstr "تواصل معنا:"
+
+msgid "Technology in the interest of language"
+msgstr "تقنية المعلوماتية في خدمة اللغة"
+
+msgid "The African Network for Localisation"
+msgstr "الشبكة الأفريقية للتوطين"
+
+msgid "Translation by"
+msgstr "ترجمة"
+
+msgid "Diagram"
+msgstr "رسم بياني"
+
+msgid "New translator"
+msgstr "مترجم جيد"
+
+msgid "No existing translation"
+msgstr "لا تُوجد ترجمة حاليا"
+
+msgid "Existing translation available"
+msgstr "توجد ترجمة"
+
+msgid "Template generated "
+msgstr "تم توليد القالب"
+
+msgid "Find translation"
+msgstr "ابحث عن ترجمة"
+
+msgid "Upgrade the existing translation to the template"
+msgstr "رقِّ الترجمة الحالية إلى هذا القالب"
+
+msgid "Translate"
+msgstr "تَرجِم"
+
+msgid "Review"
+msgstr "راجِع"
+
+msgid "Submit"
+msgstr "أودِع"
