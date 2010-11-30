@@ -3889,7 +3889,7 @@ msgid "&Lebelela"
 msgstr "&تنقّل"
 
 msgid "<f0>V</f0><f1>iew</f1>"
-msgstr "<f0>J</f0><ump"
+msgstr "<f0>J</f0>ump"
 
 msgid "<f0>Le</f0><f1>b</f1><f2>elela</f2>"
 msgstr "ت<f0>ن</f0>قل"
