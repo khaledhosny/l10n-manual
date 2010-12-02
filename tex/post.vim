@@ -10,4 +10,6 @@
 :%s/\\url{/\\URL{/g
 :%s/<\(Alt.\{-}.\|Ctrl.\{-}.\|Alt\|Ctrl\)>/\\KBD{\1}/g
 :%s/\(\\externalfigure\[.\{-}.\]\)\[.\{-}\]/\\placefigure[here,force]\r  {none}\r  {\1[width=.8\\textwidth]}/g
+
+:%s/\\startframedtext\[right\]\[background=screen\]\n^\(.*.\)$\n\\stopframedtext/\\framed[background=screen]{\1}/
 :wq
