@@ -1,0 +1,150 @@
+\startenvironment l10n-ar
+
+%
+% directionality
+%
+\usemodule[directions] % mine, a bit slower
+\doifmode{*last}
+  {\ctxlua{bidi.enable()}}
+%\setupdirections[bidi=global] % official, faster but incomplete
+\pardir  TRT
+\textdir TRT
+
+%
+% language
+%
+\mainlanguage[arabic]
+
+%
+% fonts
+%
+\definefontfeature	[arabic][arabic]
+			[protrusion=quality,expansion=quality,
+			 anum=yes,tlig=yes]
+\definefontfeature	[default][default]
+			[protrusion=quality,expansion=quality]
+\setupalign		[hz,hanging,nothyphenated]
+\usetypescriptfile	[type-adobearabic]
+\usetypescript		[adobearabic]
+\usetypescript		[palatino]
+\setupbodyfont		[adobearabic, 16pt]
+
+%
+% chapter header
+%
+\setuphead
+  [chapter]
+  [page=yes,
+   before={\blank[force,4*line]},
+   after={\blank[4*line]},
+   alternative=margin,
+   numbercommand=\MyChapterNumber,
+   header=empty,
+   footer=chapterstart]
+
+\def\MyChapterNumber#1{%
+  \inframed
+    [frame=off,rightframe=on,
+     offset=.5em,
+     rulethickness=.1ex,
+     align=left]{#1}}
+
+\definetext
+  [chapterstart]
+  [footer]
+  [pagenumber]
+
+%
+% heads
+%
+\setuphead
+  [chapter]
+  [style=\bfd]
+
+\setuphead
+  [section]
+  [style=\bic]
+
+\setuphead
+  [subsection]
+  [style=\bfb]
+
+\setuphead
+  [subsubsection]
+  [style=\bfa]
+
+\setuphead
+  [section,subsection,subsubsection]
+  [number=no]
+
+%
+% page numbering
+%
+\setuppagenumbering
+  [alternative=doublesided,
+   location=]
+
+\setupheadertexts
+  [\setups{text:header:odd}]
+  []
+  []
+  [\setups{text:header:even}]
+
+\startsetups text:header:odd
+  \pagenumber
+  \quad\vrule\quad
+  \getmarking[chapter][current]
+\stopsetups
+
+\startsetups text:header:even
+  Book Title % XXX: buffers
+  \quad\vrule\quad
+  \pagenumber
+\stopsetups
+
+%
+% TOC
+%
+\definelist
+  [chapter]
+  []
+  [alternative=a,
+   width=.2\textwidth,
+   numbercommand=\MyTocNumber,
+   criterium=all]
+
+\def\MyTocNumber#1{\hbox to 2em{\hfill #1}}
+
+%
+% spacing
+%
+\setupindenting[yes,medium]
+%\setupheads[indentnext=yes] % indent after heads
+
+\setupinterlinespace[1.2em]  % inter-line
+\setupwhitespace[medium]     % inter-paragraph
+
+%
+% layout
+%
+\setuplayout
+  [grid=no]%{yes, force}]
+%\showgrid
+
+%
+% footnotes
+%
+\setupfootnotes
+  [rule=right]
+
+%
+% itemisation
+%
+\setupitemize
+  [1]
+  [serried,packed,joinedup,nowhite,after]
+  [indentnext=no]
+
+\definesymbol[1][{\tfa •}]
+
+\stopenvironment
