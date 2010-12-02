@@ -26,9 +26,11 @@
 %
 \definefontfeature	[arabic][arabic]
 			[protrusion=quality,expansion=quality,
-			 anum=yes,tlig=yes]
+			 anum=yes,tlig=yes,
+                         formatters=strip]
 \definefontfeature	[default][default]
-			[protrusion=quality,expansion=quality]
+			[protrusion=quality,expansion=quality
+                         formatters=strip]
 \setupalign		[hz,hanging]%,nothyphenated]
 
 \usetypescriptfile	[type-adobearabic]
