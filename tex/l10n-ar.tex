@@ -123,6 +123,14 @@
 \def\MyTocNumber#1{\hbox to 2em{\hfill #1}}
 
 %
+% frontmatter
+%
+\startsectionblockenvironment[frontpart]
+   \setupheader[state=stop]
+   \setupfooter[state=stop]
+\stopsectionblockenvironment
+
+%
 % spacing
 %
 %\setupindenting[yes,medium]
