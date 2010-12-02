@@ -4349,7 +4349,7 @@ msgid ""
 "did, you can simply undo the step with Ctrl+Z."
 msgstr ""
 "إذا كنت لا تريد هذه التغييرات التلقائية في النص فيمكن التراجع عنها بضغط "
-"<Ctrl>+Z."
+"<Ctrl+Z>."
 
 msgid "Copy a placeable to the target"
 msgstr "نسخ مُدْرَج إلى الترجمة"
