@@ -9,4 +9,5 @@
 :%s/\\href{\(.\{-}.\)}{\(.\{-}.\)}/\\goto{\2}[url(\1)]/g
 :%s/\\url{/\\URL{/g
 :%s/<\(Alt.\{-}.\|Ctrl.\{-}.\|Alt\|Ctrl\)>/\\KBD{\1}/g
+:%s/\(\\externalfigure\[.\{-}.\]\)\[.\{-}\]/\\placefigure[here,force]\r  {none}\r  {\1[width=.8\\textwidth]}/g
 :wq
