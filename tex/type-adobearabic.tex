@@ -1,0 +1,28 @@
+\starttypescript [serif] [adobearabic]
+ \definefontsynonym[AdobeArabic-Regular]
+			[name:AdobeArabic-Regular]	[features=arabic]
+ \definefontsynonym[AdobeArabic-Bold]
+			[name:AdobeArabic-Bold]		[features=arabic]
+ \definefontsynonym[AdobeArabic-Italic]
+			[name:AdobeArabic-Italic]	[features=arabic]
+ \definefontsynonym[AdobeArabic-Bold-Italic]
+			[name:AdobeArabic-BoldItalic]	[features=arabic]
+\stoptypescript
+
+\starttypescript [serif] [adobearabic]
+ \usetypescript[serif][fallback]
+ \definefontsynonym[Serif]
+			[AdobeArabic-Regular]		[features=arabic]
+ \definefontsynonym[SerifItalic]
+			[AdobeArabic-Italic]		[features=arabic]
+ \definefontsynonym[SerifBold]
+			[AdobeArabic-Bold]		[features=arabic]
+ \definefontsynonym[SerifBoldItalic]
+			[AdobeArabic-Bold-Italic]	[features=arabic]
+\stoptypescript
+
+\starttypescript [adobearabic]
+  \definetypeface [adobearabic] [rm] [serif] [adobearabic] [default] 
+  \definetypeface [adobearabic] [tt] [mono]  [default]     [default][rscale=0.8]
+  \definetypeface [adobearabic] [ss] [sans]  [default]     [default][rscale=0.8]
+\stoptypescript 
