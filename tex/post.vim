@@ -4,4 +4,5 @@
 :%s/\\endinput//
 :%s/^\\stopitemize\n\\startitemize\[1\]\n//
 :%s/manualar-img/img/g
+:%s/{\\md \(.\{-}.\)}/{\\bf \1}/g
 :wq
