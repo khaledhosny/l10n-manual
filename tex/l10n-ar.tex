@@ -11,8 +11,7 @@
 % directionality
 %
 \usemodule[directions] % mine, a bit slower
-\doifmode{*last}
-  {\ctxlua{bidi.enable()}}
+\ctxlua{bidi.enable()}
 %\setupdirections[bidi=global] % official, faster but incomplete
 \pardir  TRT
 \textdir TRT
@@ -100,11 +99,11 @@
 \startsetups text:header:odd
   \pagenumber
   \quad\vrule\quad
-  \getmarking[chapter][current]
+  \hbox{\getmarking[chapter][current]} % XXX: hbox
 \stopsetups
 
 \startsetups text:header:even
-  \getvariable{l10n-manual}{title}
+  \hbox{\getvariable{l10n-manual}{title}} % XXX: hbox
   \quad\vrule\quad
   \pagenumber
 \stopsetups
