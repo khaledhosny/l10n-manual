@@ -2,4 +2,5 @@
 
 :%s/bkm:RefHeading/ref:/g
 :%s/\\endinput//
+:%s/^\\stopitemize\n\\startitemize\[1\]\n//
 :wq
