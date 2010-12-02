@@ -23,10 +23,10 @@
 			 anum=yes,tlig=yes]
 \definefontfeature	[default][default]
 			[protrusion=quality,expansion=quality]
-\setupalign		[hz,hanging,nothyphenated]
+\setupalign		[hz,hanging]%,nothyphenated]
+
 \usetypescriptfile	[type-adobearabic]
 \usetypescript		[adobearabic]
-\usetypescript		[palatino]
 \setupbodyfont		[adobearabic, 16pt]
 
 %
@@ -147,5 +147,17 @@
   [indentnext=no]
 
 \definesymbol[1][{\tfa •}]
+
+%
+% url
+%
+\def\URL#1{{\language[en]\tt\hyphenatedurl{#1}}}
+
+%
+% keyboard shortcuts
+%
+\catcode`<=\active
+\catcode`>=\active
+\def<#1>{{\tt #1}}
 
 \stopenvironment

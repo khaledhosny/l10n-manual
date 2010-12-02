@@ -4128,7 +4128,7 @@ msgid ""
 "<a0>http://php.net/manual/en/function.strftime.php</a0> <s1/>or <s2/"
 "><a3><f4>http://www.php.net/date</f4></a3>"
 msgstr ""
-"<a0>http://php.net/manual/en/function.strftime.php</a0> <s1/>or "
+"<a0>http://php.net/manual/en/function.strftime.php</a0> <s1/>أو "
 "<s2/><a3><f4>http://www.php.net/date</f4></a3>"
 
 msgid "Python"
