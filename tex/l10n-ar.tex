@@ -1,6 +1,13 @@
 \startenvironment l10n-ar
 
 %
+% variables
+%
+\setvariables
+  [l10n-manual]
+  [title=]
+
+%
 % directionality
 %
 \usemodule[directions] % mine, a bit slower
@@ -97,7 +104,7 @@
 \stopsetups
 
 \startsetups text:header:even
-  Book Title % XXX: buffers
+  \getvariable{l10n-manual}{title}
   \quad\vrule\quad
   \pagenumber
 \stopsetups
