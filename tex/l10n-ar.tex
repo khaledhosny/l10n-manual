@@ -24,18 +24,18 @@
 %
 % fonts
 %
-\definefontfeature	[arabic][arabic]
-			[protrusion=quality,expansion=quality,
-			 anum=yes,tlig=yes,
-                         formatters=strip]
-\definefontfeature	[default][default]
-			[protrusion=quality,expansion=quality
-                         formatters=strip]
-\setupalign		[hz,hanging]%,nothyphenated]
+\definefontfeature
+  [arabic][arabic]
+  [protrusion=quality,expansion=quality,
+   anum=yes,tlig=yes,
+   formatters=strip]
+\definefontfeature
+  [default][default]
+  [protrusion=quality,expansion=quality
+  formatters=strip]
 
-\usetypescriptfile	[type-adobearabic]
-\usetypescript		[adobearabic]
-\setupbodyfont		[adobearabic, 16pt]
+\usetypescript[adobearabic]
+\setupbodyfont[adobearabic, 16pt]
 
 %
 % chapter header
@@ -140,7 +140,8 @@
 
 \setupinterlinespace[1.2em]  % inter-line
 \setupwhitespace[medium]     % inter-paragraph
-\setuptolerance		[verytolerant]
+\setuptolerance [verytolerant]
+\setupalign     [hz,hanging]%,nothyphenated]
 
 %
 % layout
