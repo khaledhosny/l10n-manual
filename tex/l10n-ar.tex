@@ -105,13 +105,14 @@
 %
 % TOC
 %
-\definelist
-  [chapter]
-  []
+\definecombinedlist
+  [content]
+  [chapter,section]
   [alternative=a,
    width=.2\textwidth,
    numbercommand=\MyTocNumber,
-   criterium=all]
+   criterium=all,
+   level=section]
 
 \def\MyTocNumber#1{\hbox to 2em{\hfill #1}}
 
