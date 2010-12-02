@@ -5436,7 +5436,7 @@ msgstr "طالع المزيد عن فحوص الجودة هنا:"
 
 # 80%
 msgid "http://translate.sourceforge.net/wiki/toolkit/pofilter_tests"
-msgstr "http://translate.sourceforge.net/wiki/toolkit/index"
+msgstr "http://translate.sourceforge.net/wiki/toolkit/pofilter_tests"
 
 msgid ""
 "It is important to realise that these tests could suggest that some "
@@ -5891,7 +5891,7 @@ msgstr ""
 
 # 90%
 msgid "http://translate.sourceforge.net/wiki/toolkit/pogrep"
-msgstr "http://translate.sourceforge.net/wiki/toolkit/index"
+msgstr "http://translate.sourceforge.net/wiki/toolkit/pogrep"
 
 msgid ""
 "Although we discuss a lot of issues relating to translation, some projects "
