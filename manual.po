@@ -4231,7 +4231,7 @@ msgstr ""
 "الأيمن على الملف."
 
 msgid "You can also run Virtaal and open a file with File→Open or Ctrl+O."
-msgstr "يمكن أيضا تشغيل فرتال ثم فتح ملف من قائمة ملف->افتح أو <Ctrl+O>."
+msgstr "يمكن أيضا تشغيل فرتال ثم فتح ملف من قائمة ملف←افتح أو <Ctrl+O>."
 
 msgid "Supported file formats include:"
 msgstr "تشمل أنساق الملفات المدعومة:"
