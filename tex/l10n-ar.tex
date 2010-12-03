@@ -18,6 +18,8 @@
 \primitive\pagedir TRT
 \primitive\bodydir TRT
 
+\def\ltr#1{\bidilre#1\bidipop}
+
 %
 % language
 %
@@ -27,12 +29,18 @@
 % fonts
 %
 \definefontfeature
-  [arabic][arabic]
+  [arabic]
+  [arabic]
   [protrusion=quality,expansion=quality,
-   anum=yes,tlig=yes,
+   %anum=yes,tlig=yes,
    formatters=strip]
 \definefontfeature
-  [default][default]
+  [arabic-mono]
+  [arabic]
+  [anum=no,tlig=no]
+\definefontfeature
+  [default]
+  [default]
   [protrusion=quality,expansion=quality
   formatters=strip]
 
@@ -169,6 +177,18 @@
   [indentnext=no]
 
 \definesymbol[1][{\tfa •}]
+
+%
+% examples
+%
+\defineframed
+  [exampleframed]
+  [align={right,l2r},
+   width=broad,
+   frame=off,
+   background=screen]
+
+\def\example#1{\exampleframed{\tt #1}}
 
 %
 % urls
