@@ -18,7 +18,7 @@
 \primitive\pagedir TRT
 \primitive\bodydir TRT
 
-\def\ltr#1{\bidilre#1\bidipop}
+\def\ltr#1{{\bidilre#1\bidipop}}
 
 %
 % language
@@ -188,17 +188,35 @@
    frame=off,
    background=screen]
 
+\defineframed
+  [rexampleframed]
+  [align={right,r2l},
+   width=broad,
+   frame=off,
+   background=screen]
+
 \def\example#1{\exampleframed{\tt #1}}
+\def\rexample#1{\rexampleframed{\tt #1}}
 
 %
 % urls
 %
-\def\URL#1{{\bidilre\language[en]\tt\hyphenatedurl{#1}\bidipop}}
-\def\CURL#1{\midaligned{\URL{#1}}}
+\def\URL#1{\ltr{\language[en]\tt\hyphenatedurl{#1}}}
+\def\CURL#1{\rightaligned{\URL{#1}}}
 
 %
 % keyboard shortcuts
 %
 \def\KBD#1{{\tt #1}}
+
+%
+% misc.
+%
+\unexpanded\def\zwj{\char"200D}
+\unexpanded\def\zwnj{\char"200C}
+\unexpanded\def\rlm{\char"200F}
+\unexpanded\def\lrm{\char"200E}
+
+\unexpanded\def\Type{\groupedcommand{\setgroupedtype\bidilre}{\bidipop}}
 
 \stopenvironment
