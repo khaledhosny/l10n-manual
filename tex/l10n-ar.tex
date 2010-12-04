@@ -54,10 +54,12 @@
 %
 \setuphead
   [chapter]
-  [page=yes,
+  [style=\bfd,
+   page=yes,
    before={\blank[force,4*line]},
    after={\blank[4*line]},
    alternative=margin,
+   number=yes,
    numbercommand=\MyChapterNumber,
    header=empty,
    footer=chapterstart]
@@ -78,10 +80,6 @@
 % heads
 %
 \setuphead
-  [chapter]
-  [style=\bfd]
-
-\setuphead
   [section]
   [style=\bic]
 
@@ -95,7 +93,9 @@
 
 \setuphead
   [section,subsection,subsubsection]
-  [number=no]
+  [command=\dummy]
+
+\def\dummy#1#2{#2}
 
 %
 % page numbering
@@ -164,6 +164,7 @@
 
 \setupheads
   [aligntitle=float]
+
 %
 % footnotes
 %
