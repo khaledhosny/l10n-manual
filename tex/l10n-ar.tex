@@ -175,14 +175,15 @@
 % footnotes
 %
 \setupfootnotes
-  [rule=right]
+  [rule=right,
+   way=bypage]
 
 %
 % itemisation
 %
 \setupitemize
-  [1]
-  [serried,packed,joinedup,nowhite,after]
+  [each]
+  [serried,packed,joinedup,nowhite,intro]
   [indentnext=no]
 
 \definesymbol[1][{\tfa •}]
