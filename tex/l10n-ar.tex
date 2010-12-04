@@ -128,14 +128,20 @@
 \definecombinedlist
   [content]
   [chapter,section]
-  [alternative=a,
-   width=.2\textwidth,
-   numbercommand=\MyTocNumber,
-   criterium=all,
+  [criterium=all,
    level=section]
 
-\def\MyTocNumber#1{\hbox to 2em{\hfill #1}}
+\setuplist
+  [chapter]
+  [textstyle=\bia,
+   numberstyle=\tfa,
+   pagestyle=\tfb]
 
+\setuplist
+  [section]
+  [numbercommand=\dummyone]
+
+\def\dummyone#1{}
 %
 % frontmatter
 %
