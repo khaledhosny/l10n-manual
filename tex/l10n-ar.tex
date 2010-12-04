@@ -105,21 +105,21 @@
    location=]
 
 \setupheadertexts
+  []
   [\setups{text:header:odd}]
-  []
-  []
   [\setups{text:header:even}]
+  []
 
 \startsetups text:header:odd
-  \pagenumber
+  \getmarking[chapter][current]
   \quad\vrule\quad
-  \hbox{\getmarking[chapter][current]} % XXX: hbox
+  \pagenumber
 \stopsetups
 
 \startsetups text:header:even
-  \hbox{\getvariable{l10n-manual}{title}} % XXX: hbox
-  \quad\vrule\quad
   \pagenumber
+  \quad\vrule\quad
+  \getvariable{l10n-manual}{title}
 \stopsetups
 
 %
