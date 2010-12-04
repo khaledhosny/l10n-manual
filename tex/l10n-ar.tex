@@ -159,7 +159,7 @@
 \setupinterlinespace[1.2em]  % inter-line
 \setupwhitespace[medium]     % inter-paragraph
 \setuptolerance [verytolerant]
-\setupalign     [hz,hanging]%,nothyphenated]
+\setupalign     [hz,hanging,line]%,nothyphenated]
 
 %
 % layout
@@ -212,7 +212,7 @@
 % urls
 %
 \def\URL#1{\ltr{\language[en]\tt\hyphenatedurl{#1}}}
-\def\CURL#1{\rightaligned{\URL{#1}}}
+\def\CURL#1{\crlf\URL{#1}}
 
 %
 % keyboard shortcuts
