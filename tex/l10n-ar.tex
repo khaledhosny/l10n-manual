@@ -52,10 +52,14 @@
 %
 % chapter header
 %
+\definepagebreak
+  [ChapterBreak]
+  [yes,header,right]
+
 \setuphead
   [chapter]
   [style=\bfd,
-   page=yes,
+   page=ChapterBreak,
    before={\blank[force,4*line]},
    after={\blank[4*line]},
    alternative=margin,
