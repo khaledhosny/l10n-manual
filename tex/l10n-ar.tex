@@ -44,7 +44,7 @@
    formatters=strip]
 
 \usetypescript[adobearabic]
-\setupbodyfont[adobearabic, 16pt]
+\setupbodyfont[adobearabic, 11pt]
 
 \definefont[mal][name:Meera]
 
@@ -167,9 +167,11 @@
 %
 % layout
 %
+\setuppapersize[A5][A4]
 \setuplayout
-  [grid=no]%{yes, force}]
-%\showgrid
+  [grid=no,
+   marking=on,
+   location=middle]
 
 \setupheads
   [aligntitle=float]
