@@ -44,7 +44,7 @@
    formatters=strip]
 
 \usetypescript[adobearabic]
-\setupbodyfont[adobearabic, 11pt]
+\setupbodyfont[adobearabic, 12pt]
 
 \definefont[mal][name:Meera]
 
@@ -167,14 +167,21 @@
 %
 % layout
 %
-\setuppapersize[A5][A4]
+\setuppapersize
+  [A5]
+  [A5]%[A4]
 \setuplayout
   [grid=no,
-   marking=on,
+%  marking=on,
    location=middle]
 
 \setupheads
   [aligntitle=float]
+
+%
+% tables
+%
+\SetTableToWidth{.8\paperwidth}
 
 %
 % footnotes
