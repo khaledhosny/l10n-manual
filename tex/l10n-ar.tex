@@ -80,7 +80,7 @@
   [section,subsection,subsubsection]
   [command=\dummy]
 
-\def\dummy#1#2{#2}
+\def\dummy#1#2{#2} % fixme
 
 %
 % page numbering
@@ -126,7 +126,8 @@
   [section]
   [numbercommand=\dummyone]
 
-\def\dummyone#1{}
+\def\dummyone#1{} % fixme
+
 %
 % frontmatter
 %
@@ -163,7 +164,7 @@
 %
 % tables
 %
-\SetTableToWidth{.8\paperwidth}
+\SetTableToWidth{.8\paperwidth} % fixme
 
 %
 % footnotes
@@ -199,8 +200,8 @@
    frame=off,
    background=screen]
 
-\def\example#1{\exampleframed{\tt #1}}
-\def\rexample#1{\rexampleframed{\tt #1}}
+\def\example#1{\exampleframed{\tt #1}} % fixme
+\def\rexample#1{\rexampleframed{\tt #1}} % fixme
 
 %
 % urls
@@ -216,11 +217,11 @@
 %
 % misc.
 %
-\unexpanded\def\zwj{\char"200D}
-\unexpanded\def\zwnj{\char"200C}
-\unexpanded\def\rlm{\char"200F}
-\unexpanded\def\lrm{\char"200E}
+\unexpanded\def\zwj  {\char"200D}
+\unexpanded\def\zwnj {\char"200C}
+\unexpanded\def\rlm  {\char"200F}
+\unexpanded\def\lrm  {\char"200E}
 
-\unexpanded\def\Type{\groupedcommand{\setgroupedtype\bidilre}{\bidipop}}
+\unexpanded\def\Type{\groupedcommand{\setgroupedtype\bidilre}{\bidipop}} % fixme
 
 \stopenvironment
