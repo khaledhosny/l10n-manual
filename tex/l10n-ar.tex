@@ -145,7 +145,7 @@
 \setupinterlinespace[1.2em]  % inter-line
 \setupwhitespace[medium]     % inter-paragraph
 \setuptolerance [verytolerant]
-\setupalign     [hz,hanging,line]%,nothyphenated]
+\setupalign     [hz,hangine]
 
 %
 % layout
@@ -153,6 +153,7 @@
 \setuppapersize
   [A5]
   [A5]%[A4]
+
 \setuplayout
   [grid=no,
 %  marking=on,
@@ -160,6 +161,9 @@
 
 \setupheads
   [aligntitle=float]
+
+\setupalign
+  [line]
 
 %
 % tables
