@@ -129,6 +129,21 @@
 \def\dummyone#1{} % fixme
 
 %
+% interaction
+%
+
+\startmode[screen]
+  \definecolor[niceblue][r=.4, g=.6, b=1]
+  \setupinteraction
+    [state=start,
+     focus=standard,
+     color=niceblue,
+     style=normal,
+     page=no]
+  \setupcombinedlist[content][interaction=pagenumber]
+\stopmode
+
+%
 % frontmatter
 %
 \startsectionblockenvironment[frontpart]
@@ -210,7 +225,9 @@
 %
 % urls
 %
-\def\URL#1{\ltr{\language[en]\tt\hyphenatedurl{#1}}}
+\doifmodeelse{screen}
+  {\def\URL#1{\ltr{\goto{\language[en]\tt\hyphenatedurl{#1}}[url(#1)]}}}
+  {\def\URL#1{\ltr{\language[en]\tt\hyphenatedurl{#1}}}}
 \def\CURL#1{\crlf\URL{#1}}
 
 %
