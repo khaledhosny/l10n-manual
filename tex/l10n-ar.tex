@@ -14,7 +14,6 @@
 % directionality
 %
 \usemodule[bidi] % mine, a bit slower
-\ctxlua{bidi.enable()}
 %\setupdirections[bidi=global] % official, faster but incomplete
 \pardir  TRT
 \textdir TRT
@@ -202,7 +201,7 @@
 %
 % tables
 %
-\SetTableToWidth{.8\paperwidth} % fixme
+\setuptables[width=.8\paperwidth]
 
 %
 % footnotes
