@@ -8,14 +8,18 @@
   [title=,
    subtitle=,
    author=,
-   keywords=]
+   keywords=,
+   direction=]
 
 %
 % directionality
 %
-\usemodule[bidi] % mine, a bit slower
-\setupbidi[bidi=on, main=r2l]
-%setupdirections[bidi=global] % official, faster but incomplete
+\usemodule[bidi]
+\setupbidi[bidi=on]
+
+\appendtoks
+  \setupbidi[main=\getvariable{l10n-manual}{direction}]
+\to \everypar
 
 \def\ltr#1{{\bidilre#1\bidipop}}
 
