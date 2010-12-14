@@ -14,11 +14,8 @@
 % directionality
 %
 \usemodule[bidi] % mine, a bit slower
-%\setupdirections[bidi=global] % official, faster but incomplete
-\pardir  TRT
-\textdir TRT
-\primitive\pagedir TRT
-\primitive\bodydir TRT
+\setupbidi[bidi=on, main=r2l]
+%setupdirections[bidi=global] % official, faster but incomplete
 
 \def\ltr#1{{\bidilre#1\bidipop}}
 
