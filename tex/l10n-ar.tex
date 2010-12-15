@@ -9,7 +9,8 @@
    subtitle=,
    author=,
    keywords=,
-   direction=]
+   direction=,
+   language=]
 
 \unexpanded\def\setuplocalisationmanual[#1]
   {\setvariables[l10n-manual][#1]}
@@ -29,7 +30,9 @@
 %
 % language
 %
-\mainlanguage[arabic]
+\appendtoks
+  \mainlanguage[\getvariable{l10n-manual}{language}]
+\to \everypar
 
 %
 % fonts
