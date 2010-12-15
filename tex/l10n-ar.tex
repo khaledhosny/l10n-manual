@@ -56,6 +56,12 @@
    header=empty,
    footer=chapterstart]
 
+\startmode[screen]
+  \setuphead
+    [chapter]
+    [before={\blank[force,line]}]
+\stopmode
+
 \def\MyChapterNumber#1{%
   \inframed
     [frame=off,rightframe=on,
@@ -184,14 +190,26 @@
 %
 % layout
 %
-\doifmodeelse{screen}
-  {\setuppapersize[A4][A4]}
-  {\setuppapersize[A5][A5]}
+\setuppapersize[A5][A5]
 
 \setuplayout
   [grid=no,
 %  marking=on,
    location=middle]
+
+\startmode[screen]
+  \setuppapersize
+    [S6][S6]
+
+  \setuplayout
+    [width=middle,
+     height=middle,
+     topspace=50pt,
+     backspace=50pt]
+
+  \setupinteractionscreen
+    [option=max]
+\stopmode
 
 \setupheads
   [aligntitle=float]
