@@ -269,8 +269,9 @@
 % urls
 %
 \doifmodeelse{screen}
-  {\def\URL#1{\ltr{\goto{\language[en]\tt\hyphenatedurl{#1}}[url(#1)]}}}
-  {\def\URL#1{\ltr{\language[en]\tt\hyphenatedurl{#1}}}}
+  {\def\URL#1{\ltr{\goto{#1}[url(#1)]}}}
+  {\def\URL#1{\ltr{#1}}}
+
 \def\CURL#1{\crlf\URL{#1}}
 
 %
@@ -286,6 +287,6 @@
 \unexpanded\def\rlm  {\char"200F}
 \unexpanded\def\lrm  {\char"200E}
 
-\unexpanded\def\Type{\groupedcommand{\setgroupedtype\bidilre}{\bidipop}} % fixme
+\unexpanded\def\type{\groupedcommand{\setgroupedtype\bidilre}{\bidipop}} % fixme
 
 \stopenvironment
