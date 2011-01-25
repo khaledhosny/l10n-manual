@@ -9,7 +9,7 @@
    language=arabic]
 
 \starttext
-
+\asciimode
 \startfrontmatter
 \section{مقدمة}
 الحواسيب أدوات رائعة يمكن الانتفاع بها على أوجه لا حصر لها، إلا أننا
@@ -442,7 +442,7 @@
 
 بعض اللغات التي تُستعمَلُ تنويعات منها في أكثر من بلد تكون لها ترجمة
 مختلفة لكل بلد، وفي هذه الحالة تُمَيَّزُ بأن يُلحق رمز البلد إلى رمز اللغة،
-مثل ‘fr\_CA’ للفرنسية الكندية أو ‘en\_GB’ للإنگليزية البريطانية. لاحظ
+مثل ‘fr_CA’ للفرنسية الكندية أو ‘en_GB’ للإنگليزية البريطانية. لاحظ
 أنه لا حاجة لتحديد رمز البلد إلا في حال وجود أكثر من ترجمة لأكثر من بلد
 تستعمل فيه ذات اللغة، لذا لا تُحدد رمز البلد إلا إذا كان مشروع البرمجية
 المترجمة يتطلب هذا أو كنت تعرف أن لغتك توجد لها ترجمات مختلفة باختلاف
@@ -543,15 +543,13 @@
 رسالة، إلا أنها تخالفها في باقي العبارة لمخالفتها قواعد كتابة سوتو
 الشمالية.
 }
-\bgroup % FIXME
+\bgroup
 \starttable[|r|r|r|]
 \HL
-\NC\ReFormat[cB]{الإنگليزية}\NC\ReFormat[cB]{خطأ}\NC\ReFormat[cB]{صواب}     \SR
+\NC\REF[cB]{الإنگليزية}\NC \REF[cB]{خطأ}          \NC \REF[cB]{صواب}         \SR
 \HL
 \NC Help              \NC thušo                  \NC Thušo                  \FR
-\NC \ltr{Save As…}
-\NC \ltr{Boloka E le...}
-\NC \ltr{Boloka e le...}\MR
+\NC \ltr{Save As…}    \NC \ltr{Boloka E le...}   \NC \ltr{Boloka e le...}   \MR
 \NC Font Size         \NC Bogolo Bja Fonte       \NC Bogolo bja fonte       \MR
 \NC Online Help       \NC Thušo ya Inthaneteng   \NC Thušo ya inthaneteng   \MR
 \NC Select All        \NC Kgetha Tšohle          \NC Kgetha tšohle          \MR
@@ -560,7 +558,7 @@
 \NC no selection      \NC Ga go kgetho           \NC ga go kgetho           \LR
 \HL
 \stoptable
-\egroup % FIXME
+\egroup
 
 علامات الترقيم والمسافات من الأمور المهمة التي ينبغي توثيقها في قواعد
 الترجمة. وحتى لو كانت قواعد كتابة لغتك لا تختلف عن قواعد كتابة
@@ -1147,12 +1145,10 @@ trash” ليست واضحة كفاية (قد تكون تقريرا لحال س�
 \midaligned\bgroup
 \starttable[|r|r|]
 \HL
-\NC \ReFormat[cB]{المصدر} \NC \ReFormat[cB]{الترجمة}\SR
+\NC \REF[cB]{المصدر}                     \NC \REF[cB]{الترجمة}                       \SR
 \HL
-\NC \ltr{\type{--playlist=}\bf PLAYLIST}
-\NC \ltr{\type{--playlist=}\bf قائمة استماع}\FR
-\NC \ltr{\type{--add-to=}\bf ARCHIVE}
-\NC \ltr{\type{--add-to=}\bf أرشيف}         \LR
+\NC \ltr{--playlist=\bf PLAYLIST} \NC \ltr{--playlist=\bf قائمة استماع}\FR
+\NC \ltr{--add-to=\bf ARCHIVE}    \NC \ltr{--add-to=\bf أرشيف}         \LR
 \HL
 \stoptable
 \egroup
@@ -1181,10 +1177,10 @@ trash” ليست واضحة كفاية (قد تكون تقريرا لحال س�
 \placetable
   [here,force,nonumber]
   {لهذه {\it المحارف المُخلّصة} معانٍ خاصة}
-\bgroup % FIXME
+\bgroup
 \starttable[|l|lp(.2\textwidth)|lp(.6\textwidth)|]
 \HL
-\NC \bf تتابع الخلوص \NC \bf أثره \NC \ReFormat[cB]{وصفه}\SR
+\NC \bf تتابع الخلوص \NC \bf أثره \NC \REF[cB]{وصفه}\SR
 \HL
 \NC \Type{\n}  \NC سطر جديد \NC
 يبدأ سطرا جديدا (مماثل لضغط زر الإدخال).
@@ -1213,13 +1209,13 @@ trash” ليست واضحة كفاية (قد تكون تقريرا لحال س�
 {\tt <a href="index.html" title="Rock {\bf \&apos;}n Roll">مربط</a>}\LR
 \HL
 \stoptable
-\egroup % FIXME
+\egroup
 
 \subsubsection{مثال}
 \midaligned\bgroup
 \starttable[|rp(.3\textwidth)|p(.4\textwidth)|p(.35\textwidth)|]
 \HL
-\NC \ReFormat[cB]{ما تراه}\NC\ReFormat[cB]{معناه}\NC\ReFormat[cB]{ما تفعل}\SR
+\NC \REF[cB]{ما تراه}\NC\REF[cB]{معناه}\NC\REF[cB]{ما تفعل}\SR
 \HL
 \NC \ltr{…server active.{\bf\tt\letterbackslash n}\crlf Do you want…}\NC
 سطر جديد بين جملتين. عند تشغيل البرمجية ستظهر كل جملة
@@ -1305,7 +1301,7 @@ trash” ليست واضحة كفاية (قد تكون تقريرا لحال س�
 \midaligned\bgroup
 \starttable[|l|p(.8\textwidth)|]
 \HL
-\NC {\bf الخصيصة} \NC \ReFormat[cB]{معناها}\SR
+\NC {\bf الخصيصة} \NC \REF[cB]{معناها}\SR
 \HL
 \NC \type{alt}  \NC وصف نصي بديل للصورة، أحيانا يؤلف جزءا من وسم {\tt img} (صورة)،
 وهو مهم للأشخاص المعاقين أو للمتصفحات النصية و لتيسير البحث.\FR
@@ -1362,17 +1358,17 @@ trash” ليست واضحة كفاية (قد تكون تقريرا لحال س�
 استعمالها لعرض “There are 4 files remaining” و “There are 5 files
 remaining” إلخ. وقد تبدو تلك الرسالة كالتالي:
 
-\example{There are {\bf \%d} files remaining}
+\example{There are {\bf %d} files remaining}
 
 الرمز “\Type{%d}” هو المتغير هنا ووظيفته حجز موضع سيشغله العدد لاحقا. توجد
 صور أخرى تؤدي النتيجة ذاتها:
 
 \startitemize[1]
 \item {\tt There are {\bf \{\}} files remaining}
-\item {\tt There are {\bf \%(number)d} files remaining}
-\item {\tt There are {\bf \%1} files remaining}
+\item {\tt There are {\bf %(number)d} files remaining}
+\item {\tt There are {\bf %1} files remaining}
 \item {\tt There are {\bf \&number;} files remaining}
-\item {\tt There are {\bf \$n} files remaining}
+\item {\tt There are {\bf $n} files remaining}
 \stopitemize
 
 الصيغ السابقة كلها متماثلة وستنتج عنها عند تشغيل البرمجيةِ النتيجةُ
@@ -1384,7 +1380,7 @@ remaining”. اترك المتغير كما هو ولا تحاول ترجمة �
 لا تُستخدم المتغيرات للأعداد و حسب، ففي المثال التالي يستخدم المتغير
 ليحجز موضعا لاسم التطبيق:
 
-\example{Open with “{\bf \%s}”}
+\example{Open with “{\bf %s}”}
 
 ستظهر شيئا مثل:
 
@@ -1408,10 +1404,10 @@ remaining”. اترك المتغير كما هو ولا تحاول ترجمة �
 علامة نسبة مئوية واحدة أثناء تشغيل البرمجية.
 
 \subsubsection{مثال}
-\example{The download is \%d{\bf \%\%} complete.}
+\example{The download is %d{\bf %%} complete.}
 
-ستظهر هذه الرسالة نصا مثل “The download is 40\% complete” أو “The
-download is 100\% complete”. عليك الانتباه إلى أن “\Type{%d}” متغير لقيمة
+ستظهر هذه الرسالة نصا مثل “The download is 40% complete” أو “The
+download is 100% complete”. عليك الانتباه إلى أن “\Type{%d}” متغير لقيمة
 عددية (مثل 40 أو 100 في المثال السابق) بينما تمثل “\Type{%%}” علامة نسبة
 مئوية واحدة في الترجمة.
 
@@ -1464,8 +1460,8 @@ download is 100\% complete”. عليك الانتباه إلى أن “\Type{%d
 
 \subsubsection{مثال}
 \startitemize[1]
-\item \ltr{\tt{\bf \%d file was} added to the archive.}
-\item \ltr{\tt{\bf \%d files were} added to the archive.}
+\item \ltr{\tt{\bf %d file was} added to the archive.}
+\item \ltr{\tt{\bf %d files were} added to the archive.}
 \stopitemize
 
 لاحظ الاختلاف في تمييز العدد بين الحالتين وفي بنية الجملة كذلك (“was” و
@@ -1501,50 +1497,23 @@ download is 100\% complete”. عليك الانتباه إلى أن “\Type{%d
 تتعدد علامات المسرعات وتختلف من برمجية\letterbackslash نظام لآخر:
 
 \midaligned\bgroup
-\starttable[|lp(.15\textwidth)|l|l|l|l|lp(.15\textwidth)|]
+\starttable[|lp(.15\textwidth)|lT|l|l|l|lp(.15\textwidth)|]
 \HL
-\NC {\bf البرمجية} \NC {\bf العلامة}        \NC
+\NC {\bf البرمجية} \NC \REF[RB]{العلامة}        \NC
     {\bf الاسم}    \NC {\bf النص الإنگليزي} \NC
     {\bf كيف يظهر} \NC {\bf ملاحظات}        \SR
 \HL
-\NC كدي و Qt و wxWidgets
-\NC \type{&}
-\NC علامة \&
-\NC \ltr{\tt Save {\bf \&}As…}
-\NC \ltr{Save \underbar{A}s…}
-\NC \FR
+\NC كدي و Qt و wxWidgets \NC & \NC علامة & \NC \ltr{\tt Save {\bf &}As…} \NC \ltr{Save \underbar{A}s…}  \NC \FR
+\NC گنوم و GTK \NC _ \NC الشرطة على السطر _ \NC \ltr{\tt Save {\bf _}As…} \NC \ltr{Save \underbar{A}s…} \NC \MR
 
-\NC گنوم و GTK
-\NC \type{_}
-\NC الشرطة على السطر \_
-\NC \ltr{\tt Save {\bf \_}As…}
-\NC \ltr{Save \underbar{A}s…}
+\NC أوبن​أوفِس \NC \type{~} \NC علامة \lettertilde \NC \ltr{\tt Save {\bf \lettertilde }As…} \NC \ltr{Save \underbar{A}s…}
 \NC \MR
 
-\NC أوبن​أوفِس
-\NC \type{~}
-\NC علامة \lettertilde 
-\NC \ltr{\tt Save {\bf \lettertilde }As…}
-\NC \ltr{Save \underbar{A}s…}
-\NC \MR
+\NC موزيلا \NC & \NC علامة & \NC \ltr{\tt Save {\bf &}As…} \NC \ltr{Save \underbar{A}s…}
+\NC عند استخدام \goto{moz2po}[url(http://translate.sourceforge.net/wiki/toolkit/moz2po)] \MR
 
-\NC موزيلا
-\NC \type{&}
-\NC علامة \&
-\NC \ltr{\tt Save {\bf \&}As…}
-\NC \ltr{Save \underbar{A}s…}
-\NC عند استخدام
- \goto{moz2po}[url(http://translate.sourceforge.net/wiki/toolkit/moz2po)]
-\MR
-
-\NC ملفات
- \goto{\ltr{.rc}}[url(http://translate.sourceforge.net/wiki/toolkit/rc)]
- في وِندوز 
-\NC \type{&}
-\NC علامة \&
-\NC \ltr{\tt Save {\bf \&}As…}
-\NC \ltr{Save \underbar{A}s…}
-\NC تستخدم كذلك في واين\LR
+\NC ملفات \goto{\ltr{.rc}}[url(http://translate.sourceforge.net/wiki/toolkit/rc)]  في وِندوز  \NC &
+\NC علامة & \NC \ltr{\tt Save {\bf &}As…} \NC \ltr{Save \underbar{A}s…} \NC تستخدم كذلك في واين\LR
 \HL
 \stoptable
 \egroup
@@ -1561,31 +1530,31 @@ download is 100\% complete”. عليك الانتباه إلى أن “\Type{%d
 \placetable
   [nonumber]
   {أمثة}
-\bgroup % FIXME
-\starttable[|lp(.15\textwidth)|lp(.15\textwidth)|lp(.15\textwidth)|lp(.15\textwidth)|lp(.15\textwidth)|lp(.15\textwidth)|]
+\bgroup
+\starttable[|rp(.15\textwidth)T|rp(.15\textwidth)T|rp(.15\textwidth)T|rp(.15\textwidth)|rp(.15\textwidth)|lp(.15\textwidth)|]
 \HL
-\NC {\bf النص الإنگليزي} \NC {\bf ترجمة جيّدة}
-\NC {\bf ترجمة سيئة} \NC {\bf شكل المصدر} \NC
-\ReFormat[c]{\bf شكل الترجمة} \NC \ReFormat[c]{\bf ملاحظات}\SR
+\NC \REF[cRB]{النص الإنگليزي} \NC \REF[cRB]{ترجمة جيّدة}
+\NC \REF[cRB]{ترجمة سيئة}    \NC \REF[cRB]{شكل المصدر}
+\NC \REF[cRB]{شكل الترجمة}   \NC \REF[cRB]{ملاحظات}\SR
 \HL
-\NC \Type{&File} \NC \&ملف \NC م\&لف \NC \underbar{F}ile \NC \underbar{م}لف
+\NC &File \NC \REF[l]{&ملف} \NC \REF[l]{م&لف} \NC \underbar{F}ile \NC \underbar{م}لف
 \NC قاعدة 1 و 2\FR
-\NC \Type{&Jump} \NC ت\&نقّل \NC \&تنقّل \NC \underbar{J}ump \NC ت\underbar{ن}قل \NC
+\NC &Jump \NC \REF[l]{ت&نقّل} \NC \REF[l]{&تنقّل} \NC \underbar{J}ump \NC ت\underbar{ن}قل \NC
 قاعدة 3 و 4\MR
-\NC \Type{~Tools}  \NC Di\lettertilde tlabela \NC \ltr{\lettertilde Ditlabela} \NC \underbar{T}ools \NC Di\underbar{t}labela \NC قاعدة 1 و
+\NC \lettertilde Tools \NC Di\lettertilde tlabela \NC \ltr{\lettertilde Ditlabela} \NC \underbar{T}ools \NC Di\underbar{t}labela \NC قاعدة 1 و
 3\MR
-\NC \Type{&Help} \NC T\&hušo \NC \ltr{\&Thušo} \NC \underbar{H}elp \NC
+\NC &Help \NC T&hušo \NC \ltr{&Thušo} \NC \underbar{H}elp \NC
 T\underbar{h}ušo \NC قاعدة 1\MR
-\NC \Type{_Move} \NC Š\_uthiša \NC \ltr{\_Šuthiša} \NC \underbar{M}ove \NC
+\NC _Move \NC Š_uthiša \NC \ltr{_Šuthiša} \NC \underbar{M}ove \NC
 Š\underbar{u}thiša \NC قاعدة 8\MR
-\NC \Type{Zoom &100%} \NC Godiša \&100\% \NC \ltr{\&Godiša 100\%} \NC Zoom
-\underbar{1}00\% \NC Godiša \underbar{1}00\% \NC قاعدة 11\MR
-\NC \Type{~Font Size} \NC Bogola bja \lettertilde fonte \NC Bogola
+\NC Zoom &100% \NC Godiša &100% \NC \ltr{&Godiša 100%} \NC Zoom
+\underbar{1}00% \NC Godiša \underbar{1}00% \NC قاعدة 11\MR
+\NC \lettertilde Font Size \NC Bogola bja \lettertilde fonte \NC Bogola
 bja\lettertilde fonte \NC Font Size \NC Bogola bja \underbar{f}onte \NC
 المسافات\LR
 \HL
 \stoptable
-\egroup % FIXME
+\egroup
 
 بعض القواعد التي قد تفيد في اختيار المسرع المناسب:
 
@@ -1668,13 +1637,13 @@ bja\lettertilde fonte \NC Font Size \NC Bogola bja \underbar{f}onte \NC
 للترجمة. يَسهُل ترتيب المتغيرات ذات الأسماء الدّالة، لكن المتغيرات
 الأكثر شيوعا ذات أسماء رمزية مثل “\Type{%d}” و “\Type{%s}”
 
-\example{There are \%d photos on the device \%s}
+\example{There are %d photos on the device %s}
 
 وسيُظهر هذا شيئا مثل “There are 55 photos on the device Nikon XYZ”. لكن
 قد يكون من الأنسب صياغة الترجمة على “تحتوي النبيطة Nikon XYZ على 55
 صورة”، وساعتها ستكون عبارة الترجمة كتالي:
 
-\example{تحتوي النبيطة \ltr{{\bf \%2\$s}} على \ltr{{\bf \%1\$d}} صورة}
+\example{تحتوي النبيطة \ltr{{\bf %2$s}} على \ltr{{\bf %1$d}} صورة}
 
 هنا غيّرنا الأسماء الرمزية للمتغيرات ليدل الاسم على موضع المتغير في
 العبارة المصدر بالإنگليزية. فالمتغير “\Type{%d}” يصبح “\Type{%1$d}”
@@ -1703,12 +1672,12 @@ bja\lettertilde fonte \NC Font Size \NC Bogola bja \underbar{f}onte \NC
 \subsubsection{مثال}
 السطر التالي يُعيِّن تنسيق الوقت ليكون على نحو “8:15 م”:
 
-\example{\%I:\%M \%p}
+\example{%I:%M %p}
 
 هذا نسق اثنتي عشرة ساعة مع إضافة “ص” و “م” إليها. في المَحليَّات التي
 يفضل فيها نسق أربع وعشرين ساعة ستكون عبارة الترجمة:
 
-\example{\%H:\%M}
+\example{%H:%M}
 
 وسيُظهر هذا الوقت ذاته على نحو “20:15” دون “ص” أو “م”. في حالة تنسيق
 الوقت والتاريخ يمكن استعمال متغيرات مختلفة أو حتى عدد مختلف من
@@ -2399,10 +2368,10 @@ bja\lettertilde fonte \NC Font Size \NC Bogola bja \underbar{f}onte \NC
 ويُوَلَّد منه ملف MO للاختبار، بعض أدوات الترجمة تحدث هذا بيسر، وإلا
 فعليك استعمال أداة {\bf msgfmt} من سطر الأوامر:
 
-\example{msgfmt  -cv  current\_translation.po  -o program\_name.mo}
+\example{msgfmt  -cv  current_translation.po  -o program_name.mo}
 
 ستجري هذه الأداة بعض الفحوص الأساسية (انظر \at{صفحة}[ref:37415529]) وستبلغك بأي مشاكل خطرة واجبة التصويب، فإذا
-لم تجد مشاكل خطرة ولَّدت ملف باسم مثل “program\_name.mo”، والاسم الفعلي
+لم تجد مشاكل خطرة ولَّدت ملف باسم مثل “program_name.mo”، والاسم الفعلي
 لهذا الملف يتوقف على الملف المصدر الذي مررته إليها، لكنه عادة ما يطابق
 اسم البرمجية مكتوبا بأحرف لاتينية صغيرة متبوعا بالامتداد “\Type{.mo}”.
 
@@ -2411,11 +2380,11 @@ bja\lettertilde fonte \NC Font Size \NC Bogola bja \underbar{f}onte \NC
 المستخدمة شيوعا (استبدل ‘xx’ برمز لغتك):
 
 \startitemize[1]
-\item \ltr{\tt /usr/share/locale/{\it xx}/LC\_MESSAGES/}
+\item \ltr{\tt /usr/share/locale/{\it xx}/LC_MESSAGES/}
           {\bf (في أغلب نظم لينُكس)}
 \item \ltr{\tt C:\letterbackslash Program Files\letterbackslash {\it Program
 Name}\letterbackslash share\letterbackslash locale\letterbackslash
-{\it xx}\letterbackslash LC\_MESSAGES\letterbackslash}
+{\it xx}\letterbackslash LC_MESSAGES\letterbackslash}
           {\bf (في وِندوز)}
 \stopitemize
 قد يتوجب إنشاء هذه الأدلة إن لم تكن موجودة (خاصة في وندوز) ولا تنسَ ضبط
