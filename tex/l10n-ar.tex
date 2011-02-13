@@ -39,8 +39,8 @@
 %
 \setupbodyfont[adobearabic]
 
-\doifmodeelse{screen}
-  {\setupbodyfont[14pt]}
+%\doifmodeelse{screen}
+%  {\setupbodyfont[14pt]}
   {\setupbodyfont[12pt]}
 
 %
@@ -80,11 +80,11 @@
    header=empty,
    footer=chapterstart]
 
-\startmode[screen]
-  \setuphead
-    [chapter]
-    [before={\blank[force,line]}]
-\stopmode
+%\startmode[screen]
+%  \setuphead
+%    [chapter]
+%    [before={\blank[force,line]}]
+%\stopmode
 
 \def\MyChapterNumber#1{%
   \inframed
@@ -185,7 +185,6 @@
   \placebookmarks
     [chapter]
    %[chapter,section,subsection]
-   %[chapter,section,subsection]
 
   \setupinteractionscreen
     [option=bookmark]
@@ -221,19 +220,19 @@
 %  marking=on,
    location=middle]
 
-\startmode[screen]
-  \setuppapersize
-    [S6][S6]
-
-  \setuplayout
-    [width=middle,
-     height=middle,
-     topspace=50pt,
-     backspace=50pt]
-
-  \setupinteractionscreen
-    [option=max]
-\stopmode
+%\startmode[screen]
+%  \setuppapersize
+%    [S6][S6]
+%
+%  \setuplayout
+%    [width=middle,
+%     height=middle,
+%     topspace=50pt,
+%     backspace=50pt]
+%
+%  \setupinteractionscreen
+%    [option=max]
+%\stopmode
 
 \setupheads
   [aligntitle=float]
