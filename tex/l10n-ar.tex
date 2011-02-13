@@ -44,6 +44,24 @@
   {\setupbodyfont[12pt]}
 
 %
+% cover page
+%
+
+\startsetups page:cover
+  \startstandardmakeup[doublesided=no]
+    \startalignment[right]
+      \framed[align=right,width=.5\textwidth,frame=off]
+        {\definedfont[Serif sa 5]\getvariable{l10n-manual}{title}}
+      \blank[4*big]
+      \framed[align=right,frame=off]
+        {\bfc\getvariable{l10n-manual}{subtitle}}
+    \stopalignment
+  \stopstandardmakeup
+\stopsetups
+
+\def\CoverPage{\setups{page:cover}}
+
+%
 % chapter header
 %
 \definepagebreak
