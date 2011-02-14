@@ -8,6 +8,8 @@
   [title=,
    subtitle=,
    author=,
+   translator1=,
+   translator2=,
    keywords=,
    direction=,
    language=]
@@ -53,8 +55,16 @@
       \framed[align=right,width=.5\textwidth,frame=off]
         {\definedfont[Serif sa 5]\getvariable{l10n-manual}{title}}
       \blank[4*big]
-      \framed[align=right,frame=off]
-        {\bfc\getvariable{l10n-manual}{subtitle}}
+      \bfc
+      \getvariable{l10n-manual}{subtitle}
+      \startmode[screen]
+      \blank[4*big]
+      \getvariable{l10n-manual}{author}
+      \blank
+      \framed[frame=off,align=r2l]{\tfx ترجمة:}\par %XXX: make localisable
+      \getvariable{l10n-manual}{translator1}\par
+      \getvariable{l10n-manual}{translator2}
+      \stopmode
     \stopalignment
   \stopstandardmakeup
 \stopsetups
@@ -179,7 +189,9 @@
      page=no,
      title=\getvariable{l10n-manual}{title},
      subtitle=\getvariable{l10n-manual}{subtitle},
-     author=\getvariable{l10n-manual}{author},
+     author={\getvariable{l10n-manual}{author},
+             \getvariable{l10n-manual}{translator1},
+             \getvariable{l10n-manual}{translator2}},
      keyword=\getvariable{l10n-manual}{keywords}]
 
   \placebookmarks
