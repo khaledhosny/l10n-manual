@@ -21,7 +21,6 @@
 % directionality
 %
 \usemodule[bidi]
-\setupbidi[bidi=on]
 
 \appendtoks
   \setupbidi[main=\getvariable{l10n-manual}{direction}]
@@ -34,7 +33,7 @@
 %
 \appendtoks
   \mainlanguage[\getvariable{l10n-manual}{language}]
-\to \everypar
+\to \everystarttext
 
 %
 % fonts
@@ -53,8 +52,8 @@
 
 \startsetups page:cover
   \startstandardmakeup[doublesided=no]
-    \startalignment[right]
-      \framed[align=right,width=.5\textwidth,frame=off]
+    \startalignment[left]
+      \framed[align=left,width=.5\textwidth,frame=off]
         {\definedfont[Serif sa 5]\getvariable{l10n-manual}{title}}
       \blank[4*big]
       \bfc
@@ -63,7 +62,7 @@
       \blank[4*big]
       \getvariable{l10n-manual}{author}
       \blank
-      \framed[frame=off,align=r2l]{\tfx ترجمة:}\par %XXX: make localisable
+      {\tfx ترجمة:}\par %XXX: make localisable
       \getvariable{l10n-manual}{translator1}\par
       \getvariable{l10n-manual}{translator2}
       \stopmode
@@ -287,19 +286,19 @@
 %
 \defineframed
   [exampleframed]
-  [align={right,l2r},
+  [align={left},
    width=broad,
    frame=off,
    background=screen]
 
 \defineframed
   [rexampleframed]
-  [align={right,r2l},
+  [align={right},
    width=broad,
    frame=off,
    background=screen]
 
-\def\example#1{\exampleframed{\tt #1}} % fixme
+\def\example#1{\exampleframed{\ltr{\tt #1}}} % fixme
 \def\rexample#1{\rexampleframed{\tt #1}} % fixme
 
 %
@@ -319,10 +318,7 @@
 %
 % misc.
 %
-\unexpanded\def\zwj  {\char"200D}
-\unexpanded\def\zwnj {\char"200C}
-\unexpanded\def\rlm  {\char"200F}
-\unexpanded\def\lrm  {\char"200E}
+\unexpanded\def\zwj{\char"200D}
 
 \unexpanded\def\type{\groupedcommand{\setgroupedtype\bidilre}{\bidipop}} % fixme
 
