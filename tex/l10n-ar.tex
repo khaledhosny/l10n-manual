@@ -313,12 +313,12 @@
 %
 \unexpanded\def\zwj{\char"200D}
 
-\unexpanded\def\type{\groupedcommand{\setgroupedtype\bidilre}{\bidipop}} % XXX
+\unexpanded\def\type{\groupedcommand{\setgroupedtype\ltr}{\relax}} % XXX
 
 \unexpanded\def\قسم#1{قسم~\about[ref:#1]}
 \unexpanded\def\صفحة#1{صفحة~\at[ref:#1]}
 
-\def\ltr#1{{\bidilre#1\bidipop}}
+\def\ltr#1{{\textdir TLT #1}}
 
 \appendtoks \asciimode \to \everystarttext
 
