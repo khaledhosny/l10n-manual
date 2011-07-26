@@ -26,8 +26,6 @@
   \setupbidi[main=\getvariable{l10n-manual}{direction}]
 \to \everystarttext
 
-\def\ltr#1{{\bidilre#1\bidipop}}
-
 %
 % language
 %
@@ -319,6 +317,8 @@
 
 \unexpanded\def\قسم#1{قسم~\about[ref:#1]}
 \unexpanded\def\صفحة#1{صفحة~\at[ref:#1]}
+
+\def\ltr#1{{\bidilre#1\bidipop}}
 
 \appendtoks \asciimode \to \everystarttext
 
