@@ -276,22 +276,25 @@
 %
 % examples
 %
-\defineframed
-  [exampleframed]
+\defineframedtext
+  [Example]
   [align={left},
    width=broad,
    frame=off,
+   before=,
+   offset=0pt,
+   style=\textdir TLT\tt,
    background=screen]
 
-\defineframed
-  [rexampleframed]
+\defineframedtext
+  [RExample]
   [align={right},
    width=broad,
    frame=off,
+   before=,
+   offset=0pt,
+   style=\tt,
    background=screen]
-
-\def\example#1{\exampleframed{\ltr{\tt #1}}} % XXX
-\def\rexample#1{\rexampleframed{\tt #1}} % XXX
 
 %
 % urls
