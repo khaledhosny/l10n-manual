@@ -126,9 +126,7 @@
 
 \setuphead
   [section,subsection,subsubsection]
-  [command=\dummy]
-
-\def\dummy#1#2{\framedtext[width=broad,offset=0pt,frame=off]{#2}} % XXX
+  [incrementnumber=list]
 
 %
 % page numbering
@@ -169,12 +167,6 @@
   [textstyle=\bia,
    numberstyle=\tfa,
    pagestyle=\tfb]
-
-\setuplist
-  [section]
-  [numbercommand=\dummyone]
-
-\def\dummyone#1{} % XXX
 
 %
 % interaction
