@@ -36,18 +36,11 @@
 %
 % fonts
 %
-\setupbodyfont[adobearabic]
-
-%\doifmodeelse{screen}
-%  {\setupbodyfont[14pt]}
-%  {
-   \setupbodyfont[12pt]
-%  }
+\setupbodyfont[adobearabic, 12pt]
 
 %
 % cover page
 %
-
 \startsetups page:cover
   \startstandardmakeup[doublesided=no]
     \startalignment[left]
@@ -71,12 +64,10 @@
 \def\CoverPage{\setups{page:cover}}
 
 %
-% chapter header
+% heads
 %
-\definepagebreak
-  [ChapterBreak]
-  [yes,header,right]
 
+% chapter
 \setuphead
   [chapter]
   [style=\bfd,
@@ -88,12 +79,6 @@
    numbercommand=\MyChapterNumber,
    header=empty,
    footer=chapterstart]
-
-%\startmode[screen]
-%  \setuphead
-%    [chapter]
-%    [before={\blank[force,line]}]
-%\stopmode
 
 \def\MyChapterNumber#1{%
   \inframed
@@ -107,9 +92,11 @@
   [footer]
   [pagenumber]
 
-%
-% heads
-%
+\definepagebreak
+  [ChapterBreak]
+  [yes,header,right]
+
+% section, subsection, subsubsection
 \setuphead
   [section]
   [style=\bic]
@@ -130,8 +117,7 @@
 % page numbering
 %
 \setuppagenumbering
-  [alternative=doublesided,
-   location=]
+  [alternative=doublesided,location=]
 
 \setupheadertexts
   []
@@ -169,7 +155,6 @@
 %
 % interaction
 %
-
 \startmode[screen]
   \definecolor[niceblue][r=.4, g=.6, b=1]
   \setupinteraction
@@ -206,9 +191,6 @@
 %
 % spacing
 %
-%\setupindenting[yes,medium]
-%\setupheads[indentnext=yes] % indent after heads
-
 \setupinterlinespace[1.2em]  % inter-line
 \setupwhitespace[medium]     % inter-paragraph
 \setuptolerance [verytolerant]
@@ -228,20 +210,6 @@
 
 \setupsectionblock[frontpart][page=no]
 \setupsectionblock[bodypart] [page=empty]
-
-%\startmode[screen]
-%  \setuppapersize
-%    [S6][S6]
-%
-%  \setuplayout
-%    [width=middle,
-%     height=middle,
-%     topspace=50pt,
-%     backspace=50pt]
-%
-%  \setupinteractionscreen
-%    [option=max]
-%\stopmode
 
 \setupheads
   [aligntitle=float]
@@ -304,11 +272,6 @@
 \def\CURL#1{\crlf\URL{#1}}
 
 %
-% keyboard shortcuts
-%
-\def\KBD#1{{\tt #1}}
-
-%
 % misc.
 %
 \unexpanded\def\type{\groupedcommand{\setgroupedtype\ltr}{\relax}} % XXX
@@ -316,8 +279,9 @@
 \unexpanded\def\قسم#1{قسم~\about[ref:#1]}
 \unexpanded\def\صفحة#1{صفحة~\at[ref:#1]}
 
-\def\ltr#1{{\textdir TLT #1}}
+\unexpanded\def\ltr#1{{\textdir TLT #1}}
 
+\unexpanded\def\KBD#1{{\tt #1}}
 \appendtoks \asciimode \to \everystarttext
 
 \stopenvironment
