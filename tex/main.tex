@@ -566,9 +566,9 @@
 رسالة، إلا أنها تخالفها في باقي العبارة لمخالفتها قواعد كتابة سوتو
 الشمالية.
 }
-\starttable[|r|r|r|]
+\starttable[|l|l|l|]
 \HL
-\NC\REF[cB]{الإنگليزية}\NC \REF[cB]{خطأ}          \NC \REF[cB]{صواب}         \SR
+\NC\REF[cB]{الإنگليزية}\NC \REF[cB]{خطأ}         \NC \REF[cB]{صواب}         \SR
 \HL
 \NC Help              \NC thušo                  \NC Thušo                  \FR
 \NC \ltr{Save As…}    \NC \ltr{Boloka E le...}   \NC \ltr{Boloka e le...}   \MR
@@ -1181,9 +1181,9 @@ trash” ليست واضحة كفاية (قد تكون تقريرا لحال س�
 \subsubsection{مثال}
 
 \midaligned\bgroup
-\starttable[|r|r|]
+\starttable[|l|l|]
 \HL
-\NC \REF[cB]{الأصل}                \NC \REF[cB]{الترجمة}                 \SR
+\NC \REF[cB]{الأصل}               \NC \REF[cB]{الترجمة}                 \SR
 \HL
 \NC \ltr{--playlist=\bf PLAYLIST} \NC \ltr{--playlist=\bf قائمة استماع} \FR
 \NC \ltr{--add-to=\bf ARCHIVE}    \NC \ltr{--add-to=\bf أرشيف}          \LR
@@ -1214,7 +1214,7 @@ trash” ليست واضحة كفاية (قد تكون تقريرا لحال س�
 \placetable
   [here,force,nonumber]
   {لهذه {\it المحارف المُخلّصة} معانٍ خاصة}
-\starttable[|l|lp(.2\textwidth)|lp(.6\textwidth)|]
+\starttable[|l|p(.2\textwidth)|p(.6\textwidth)|]
 \HL
 \NC \bf تتابع الخلوص \NC \bf أثره \NC \REF[cB]{وصفه}\SR
 \HL
@@ -1340,14 +1340,12 @@ trash” ليست واضحة كفاية (قد تكون تقريرا لحال س�
 بعض الخصائص ينبغي أن تترجم قيمها:
 
 \midaligned\bgroup
-\starttable[|l|p(.8\textwidth)|]
+\starttable[|lT|p(.8\textwidth)|]
 \HL
-\NC {\bf الخصيصة} \NC \REF[cB]{معناها}\SR
+\NC \REF[B]{الخصيصة} \NC \REF[cB]{معناها}\SR
 \HL
-\NC {\tt alt}  \NC وصف نصي بديل للصورة، أحيانا يؤلف جزءا من وسم {\tt img} (صورة)،
-وهو مهم للأشخاص المعاقين أو للمتصفحات النصية و لتيسير البحث.\FR
-\NC {\tt title}  \NC عنوان يظهر عندما يمر مؤشر الفأرة على شيء ما، يشبه تماما
-بالونات تلميحات الأدوات في واجهة المستخدم.\LR
+\NC alt   \NC وصف نصي بديل للصورة، أحيانا يؤلف جزءا من وسم {\tt img} (صورة)، وهو مهم للأشخاص المعاقين أو للمتصفحات النصية و لتيسير البحث.\FR
+\NC title \NC عنوان يظهر عندما يمر مؤشر الفأرة على شيء ما، يشبه تماما بالونات تلميحات الأدوات في واجهة المستخدم.\LR
 \HL
 \stoptable
 \egroup
@@ -1549,23 +1547,20 @@ download is 100% complete”. عليك الانتباه إلى أن “\type{%d}
 تتعدد علامات المسرعات وتختلف من برمجية\letterbackslash نظام لآخر:
 
 \midaligned\bgroup
-\starttable[|lp(.15\textwidth)|lT|l|l|l|lp(.15\textwidth)|]
+\starttable[|p(.15\textwidth)|cT|l|lT|l|p(.15\textwidth)|]
 \HL
 \NC {\bf البرمجية} \NC \REF[RB]{العلامة}        \NC
-    {\bf الاسم}    \NC {\bf النص الإنگليزي} \NC
+    {\bf الاسم}    \NC \REF[RB]{النص الإنگليزي} \NC
     {\bf كيف يظهر} \NC {\bf ملاحظات}        \SR
 \HL
-\NC كدي و Qt و wxWidgets \NC & \NC علامة & \NC \ltr{\tt Save {\bf &}As…} \NC \ltr{Save \underbar{A}s…}  \NC \FR
-\NC گنوم و GTK \NC _ \NC الشرطة على السطر _ \NC \ltr{\tt Save {\bf _}As…} \NC \ltr{Save \underbar{A}s…} \NC \MR
-
-\NC ليبرأوفِس و أوبن​أوفِس \NC {\tt ~} \NC علامة ~ \NC \ltr{\tt Save {\bf ~}As…} \NC \ltr{Save \underbar{A}s…}
-\NC \MR
-
-\NC موزيلا \NC & \NC علامة & \NC \ltr{\tt Save {\bf &}As…} \NC \ltr{Save \underbar{A}s…}
+\NC كدي و Qt و wxWidgets      \NC & \NC علامة &            \NC Save {\bf &}As… \NC Save \underbar{A}s… \NC \FR
+\NC گنوم و GTK                \NC _ \NC الشرطة على السطر _ \NC Save {\bf _}As… \NC Save \underbar{A}s… \NC \MR
+\NC ليبرأوفِس و أوبن\zwnj أوفِس \NC ~ \NC علامة ~            \NC Save {\bf ~}As… \NC Save \underbar{A}s… \NC \MR
+\NC موزيلا                    \NC & \NC علامة &            \NC Save {\bf &}As… \NC Save \underbar{A}s…
 \NC عند استخدام \goto{moz2po}[url(http://translate.sourceforge.net/wiki/toolkit/moz2po)] \MR
 
-\NC ملفات \goto{\ltr{.rc}}[url(http://translate.sourceforge.net/wiki/toolkit/rc)]  في وِندوز  \NC &
-\NC علامة & \NC \ltr{\tt Save {\bf &}As…} \NC \ltr{Save \underbar{A}s…} \NC تستخدم كذلك في واين\LR
+\NC ملفات \goto{\ltr{.rc}}[url(http://translate.sourceforge.net/wiki/toolkit/rc)]  في وِندوز
+                              \NC & \NC علامة &            \NC Save {\bf &}As… \NC Save \underbar{A}s… \NC تستخدم كذلك في واين\LR
 \HL
 \stoptable
 \egroup
