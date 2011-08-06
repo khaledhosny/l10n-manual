@@ -20,6 +20,7 @@
 %
 % directionality
 %
+\setupalign[r2l]
 \usemodule[bidi]
 
 \appendtoks
@@ -46,8 +47,8 @@
 %
 \startsetups page:cover
   \startstandardmakeup[doublesided=no]
-    \startalignment[left]
-      \framed[align=left,width=.5\textwidth,frame=off]
+    \startalignment[flushleft]
+      \framed[align=flushleft,width=.5\textwidth,frame=off]
         {\definedfont[Serif sa 5]\getvariable{l10n-manual}{title}}
       \blank[4*big]
       \bfc
@@ -247,17 +248,17 @@
 %
 \defineframedtext
   [Example]
-  [align={left},
+  [align={l2r,flushleft},
    width=broad,
    frame=off,
    before=,
    offset=0pt,
-   style=\textdir TLT\tt,
+   style=\tt,
    background=screen]
 
 \defineframedtext
   [RExample]
-  [align={right},
+  [align=r2l,
    width=broad,
    frame=off,
    before=,
