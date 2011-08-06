@@ -10,6 +10,11 @@
    direction=r2l,
    language=arabic]
 
+\useURL[pocompendium][http://translate.sourceforge.net/wiki/toolkit/pocompendium][][pocompendium]
+\useURL[po2tmx]      [http://translate.sourceforge.net/wiki/toolkit/po2tmx]      [][po2tmx]
+\useURL[moz2po]      [http://translate.sourceforge.net/wiki/toolkit/moz2po]      [][moz2po]
+\useURL[rc]          [http://translate.sourceforge.net/wiki/toolkit/rc]          [][\ltr{.rc}]
+
 \starttext
 
 \startfrontmatter
@@ -1077,11 +1082,9 @@ trash” ليست واضحة كفاية (قد تكون تقريرا لحال س�
 ملفات PO بسهولة.
 
 \subsection{تجميع ملفات الترجمة}
-إذا كان لديك ملفات ترجمة تريد جمعها في ملف واحد وتحويلها إلى ذاكرة
-ترجمة، فيمكنك استخدام بعض من أدوات عُدّة الترجمة. يمكن تخصيص أداة
-\goto{pocompendium}[url(http://translate.sourceforge.net/wiki/toolkit/pocompendium)]
-عبر عدة خيارات (مثل كيفية التعامل مع المسرعات) ويمكنك استخدام
-\goto{po2tmx}[url(http://translate.sourceforge.net/wiki/toolkit/po2tmx)]
+إذا كان لديك ملفات ترجمة تريد جمعها في ملف واحد وتحويلها إلى ذاكرة ترجمة،
+فيمكنك استخدام بعض من أدوات عُدّة الترجمة. يمكن تخصيص أداة \from[pocompendium]
+عبر عدة خيارات (مثل كيفية التعامل مع المسرعات) ويمكنك استخدام \from[po2tmx]
 لبناء ذاكرة ترجمة بنسق TMX الذي تستخدمه بعض أدوات الترجمة.
 
 كما قد تجد في عُدّة الترجمة أدوات للتحويل من أنساق الترجمة الأخرى غير
@@ -1532,8 +1535,8 @@ download is 100% complete”. عليك الانتباه إلى أن “\type{%d}
 \NC كدي و Qt و wxWidgets      \NC & \NC علامة &            \NC Save {\bf &}As… \NC Save \U{A}s… \NC \FR
 \NC گنوم و GTK                \NC _ \NC الشرطة على السطر _ \NC Save {\bf _}As… \NC Save \U{A}s… \NC \MR
 \NC ليبرأوفِس و أوبن\zwnj أوفِس \NC ~ \NC علامة ~            \NC Save {\bf ~}As… \NC Save \U{A}s… \NC \MR
-\NC موزيلا                    \NC & \NC علامة &            \NC Save {\bf &}As… \NC Save \U{A}s… \NC عند استخدام \goto{moz2po}[url(http://translate.sourceforge.net/wiki/toolkit/moz2po)] \MR
-\NC ملفات \goto{\ltr{.rc}}[url(http://translate.sourceforge.net/wiki/toolkit/rc)]  في وِندوز \NC & \NC علامة &            \NC Save {\bf &}As… \NC Save \U{A}s… \NC تستخدم كذلك في واين\LR
+\NC موزيلا                    \NC & \NC علامة &            \NC Save {\bf &}As… \NC Save \U{A}s… \NC عند استخدام \from[moz2po] \MR
+\NC ملفات \from[rc] في وِندوز  \NC & \NC علامة &            \NC Save {\bf &}As… \NC Save \U{A}s… \NC تستخدم كذلك في واين \LR
 \HL
 \stoptable
 
