@@ -1,0 +1,34 @@
+\definefontfeature [default]          [default] [script=latn,formatters=strip,trep=no,tlig=no]
+\definefontfeature [arabic-serif]     [arabic]  [formatters=strip]
+\definefontfeature [arabic-mono]      [arabic]  [formatters=strip,tlig=no]
+
+\definefontfallback[serif]            [name:Linux Libertine O]                   [arrows]    [force=yes,check=yes]
+
+\definefontfallback[serif]            [name:AdobeArabic-Regular*arabic-serif]    [arabic]    [force=yes,check=yes]
+\definefontfallback[serif-italic]     [name:AdobeArabic-Italic*arabic-serif]     [arabic]    [force=yes,check=yes]
+\definefontfallback[serif-bold]       [name:AdobeArabic-Bold*arabic-serif]       [arabic]    [force=yes,check=yes]
+\definefontfallback[serif-bolditalic] [name:AdobeArabic-BoldItalic*arabic-serif] [arabic]    [force=yes,check=yes]
+
+\definefontfallback[mono]             [name:Meera]                               [malayalam] [rscale=1.2]
+
+\starttypescript [serif] [adobearabic]
+ \usetypescript[serif][fallback]
+ \definefontsynonym[Serif]            [name:AdobeArabic-Regular]        [features=default,fallbacks=serif]
+ \definefontsynonym[SerifItalic]      [name:AdobeArabic-Italic]         [features=default,fallbacks=serif-italic]
+ \definefontsynonym[SerifBold]        [name:AdobeArabic-Bold]           [features=default,fallbacks=serif-bold]
+ \definefontsynonym[SerifBoldItalic]  [name:AdobeArabic-BoldItalic]     [features=default,fallbacks=serif-bolditalic]
+\stoptypescript
+
+\starttypescript [mono] [dejavu]
+ \usetypescript[mono][fallback]
+ \definefontsynonym[Mono]             [name:DejaVuSansMono]             [features=arabic-mono,fallbacks=mono]
+ \definefontsynonym[MonoItalic]       [name:DejaVuSansMono-Oblique]     [features=arabic-mono]
+ \definefontsynonym[MonoBold]         [name:DejaVuSansMono-Bold]        [features=arabic-mono]
+ \definefontsynonym[MonoBoldItalic]   [name:DejaVuSansMono-BoldOblique] [features=arabic-mono]
+\stoptypescript
+
+\starttypescript [l10nmanual]
+ \definetypeface[l10nmanual] [rm] [serif] [adobearabic] [default]
+ \definetypeface[l10nmanual] [tt] [mono]  [dejavu]      [default][rscale=0.6]
+ \definetypeface[l10nmanual] [ss] [sans]  [default]     [default][rscale=0.8]
+\stoptypescript
