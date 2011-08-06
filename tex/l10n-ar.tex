@@ -38,6 +38,9 @@
 %
 \setupbodyfont[l10nmanual, 12pt]
 
+% strip formatting characters
+\setcharacterstripping[1]
+
 %
 % cover page
 %
@@ -282,6 +285,7 @@
 \unexpanded\def\ltr#1{{\textdir TLT #1}}
 
 \unexpanded\def\KBD#1{{\tt #1}}
+
 \appendtoks \asciimode \to \everystarttext
 
 \stopenvironment

@@ -1,15 +1,14 @@
-\definefontfeature [default]          [default] [script=latn,formatters=strip,trep=no,tlig=no]
-\definefontfeature [arabic-serif]     [arabic]  [formatters=strip]
-\definefontfeature [arabic-mono]      [arabic]  [formatters=strip,tlig=no]
+\definefontfeature [default]          [default] [script=latn,trep=no,tlig=no]
+\definefontfeature [arabic-mono]      [arabic]  [tlig=no]
 
-\definefontfallback[serif]            [name:Linux Libertine O]                   [arrows]    [force=yes,check=yes]
+\definefontfallback[serif]            [name:Linux Libertine O]             [arrows]    [force=yes,check=yes]
 
-\definefontfallback[serif]            [name:AdobeArabic-Regular*arabic-serif]    [arabic]    [force=yes,check=yes]
-\definefontfallback[serif-italic]     [name:AdobeArabic-Italic*arabic-serif]     [arabic]    [force=yes,check=yes]
-\definefontfallback[serif-bold]       [name:AdobeArabic-Bold*arabic-serif]       [arabic]    [force=yes,check=yes]
-\definefontfallback[serif-bolditalic] [name:AdobeArabic-BoldItalic*arabic-serif] [arabic]    [force=yes,check=yes]
+\definefontfallback[serif]            [name:AdobeArabic-Regular*arabic]    [arabic]    [force=yes,check=yes]
+\definefontfallback[serif-italic]     [name:AdobeArabic-Italic*arabic]     [arabic]    [force=yes,check=yes]
+\definefontfallback[serif-bold]       [name:AdobeArabic-Bold*arabic]       [arabic]    [force=yes,check=yes]
+\definefontfallback[serif-bolditalic] [name:AdobeArabic-BoldItalic*arabic] [arabic]    [force=yes,check=yes]
 
-\definefontfallback[mono]             [name:Meera]                               [malayalam] [rscale=1.2]
+\definefontfallback[mono]             [name:Meera]                         [malayalam] [rscale=1.2]
 
 \starttypescript [serif] [adobearabic]
  \usetypescript[serif][fallback]
