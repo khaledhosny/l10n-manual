@@ -20,12 +20,14 @@
 %
 % directionality
 %
-\setupalign[r2l]
-\usemodule[bidi]
+\startnotmode[epub]
+ \setupalign[r2l]
+ \usemodule[bidi]
 
-\appendtoks
-  \setupbidi[main=\getvariable{l10n-manual}{direction}]
-\to \everystarttext
+ \appendtoks
+   \setupbidi[main=\getvariable{l10n-manual}{direction}]
+ \to \everystarttext
+\stopnotmode
 
 %
 % language
@@ -37,10 +39,12 @@
 %
 % fonts
 %
-\setupbodyfont[l10nmanual, 12pt]
+\startnotmode[epub]
+ \setupbodyfont[l10nmanual, 12pt]
 
-% strip formatting characters
-\setcharacterstripping[1]
+ % strip formatting characters
+ \setcharacterstripping[1]
+\stopnotmode
 
 %
 % cover page
@@ -289,6 +293,16 @@
   {\def\URL#1{\ltr{#1}}}
 
 \def\CURL#1{\crlf\midaligned{\URL{#1}}}
+
+%
+% EPUB
+%
+\startmode[epub]
+ \setupbackend
+   [export=yes,
+    xhtml=yes,
+    css=yes]
+\stopmode
 
 %
 % misc.
