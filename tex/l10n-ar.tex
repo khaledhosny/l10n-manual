@@ -8,8 +8,7 @@
   [title=,
    subtitle=,
    author=,
-   translator1=,
-   translator2=,
+   translator=,
    keywords=,
    direction=,
    language=]
@@ -58,12 +57,17 @@
       \bfc
       \getvariable{l10n-manual}{subtitle}
       \startmode[screen]
-      \blank[4*big]
-      \getvariable{l10n-manual}{author}
-      \blank
-      {\tfx ترجمة:}\par %XXX: make localisable
-      \getvariable{l10n-manual}{translator1}\par
-      \getvariable{l10n-manual}{translator2}
+        \blank[4*big]
+        \getvariable{l10n-manual}{author}
+        \blank
+        {\tfx ترجمة:}\par %XXX: make localisable
+        \startluacode
+            local t = string.split("\getvariable{l10n-manual}{translator}", ",")
+            for _,v in next, t do % without the % newline gets gobbled!
+                context(v)
+                context.par()
+            end
+        \stopluacode
       \stopmode
     \stopalignment
   \stopstandardmakeup
@@ -165,18 +169,19 @@
 %
 \startmode[screen]
   \definecolor[niceblue][r=.4, g=.6, b=1]
-  \setupinteraction
-    [state=start,
-     focus=standard,
-     color=niceblue,
-     style=normal,
-     page=no,
-     title=\getvariable{l10n-manual}{title},
-     subtitle=\getvariable{l10n-manual}{subtitle},
-     author={\getvariable{l10n-manual}{author},
-             \getvariable{l10n-manual}{translator1},
-             \getvariable{l10n-manual}{translator2}},
-     keyword=\getvariable{l10n-manual}{keywords}]
+  \appendtoks
+    \setupinteraction
+      [state=start,
+       focus=standard,
+       color=niceblue,
+       style=normal,
+       page=no,
+       title=\getvariable{l10n-manual}{title},
+       subtitle=\getvariable{l10n-manual}{subtitle},
+       author={\getvariable{l10n-manual}{author},
+               \getvariable{l10n-manual}{translator}},
+       keyword=\getvariable{l10n-manual}{keywords}]
+  \to \everystarttext
 
   \placebookmarks
     [chapter]
