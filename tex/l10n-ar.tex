@@ -40,6 +40,8 @@
 %
 % cover page
 %
+\setupheadtext[en][translatedby=Translated by]
+\setupheadtext[ar][translatedby=ترجمة]
 \startsetups page:cover
   \startstandardmakeup[doublesided=no]
     \doifelse {\getvariable{l10n-manual}{direction}} {r2l}
@@ -62,7 +64,7 @@
         \blank[4*big]
         \getvariable{l10n-manual}{author}
         \blank
-        {\tfx ترجمة:}\par %XXX: make localisable
+        {\tfx \headtext{translatedby}:}\par
         \startluacode
             local t = string.split("\getvariable{l10n-manual}{translator}", ",")
             for _,v in next, t do % without the % newline gets gobbled!
