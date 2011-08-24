@@ -90,17 +90,19 @@
    page=ChapterBreak,
    before={\blank[force,4*line]},
    after={\blank[4*line]},
-   alternative=margin,
    number=yes,
    numbercommand=\MyChapterNumber,
    header=empty,
    footer=chapterstart]
 
 \def\MyChapterNumber#1{%
+  \kern-1.1em%
   \inframed
-    [frame=off,rightframe=on,
-     offset=.5em,
+    [frame=off,
+     rightframe=on,
+     frameoffset=.1em,
      rulethickness=.1ex,
+     width=1em,
      align=left]{#1}}
 
 \definetext
