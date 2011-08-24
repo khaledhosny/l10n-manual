@@ -43,8 +43,17 @@
 \startsetups page:cover
   \startstandardmakeup[doublesided=no]
     \startalignment[flushleft]
-      \framed[align=flushleft,width=.5\textwidth,frame=off]
-        {\definedfont[Serif sa 5]\getvariable{l10n-manual}{title}}
+      \bgroup
+        \definedfont[Serif sa 5]
+        % I want to print the title one word per line
+        \startluacode
+            local t = string.split("\getvariable{l10n-manual}{title}", " ")
+            for _,v in next, t do % without the % newline gets gobbled!
+                context(v)
+                context.par()
+            end
+        \stopluacode
+      \egroup
       \blank[4*big]
       \bfc
       \getvariable{l10n-manual}{subtitle}
