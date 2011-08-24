@@ -42,7 +42,8 @@
 %
 \startsetups page:cover
   \startstandardmakeup[doublesided=no]
-    \startalignment[flushleft]
+    \doifelse {\getvariable{l10n-manual}{direction}} {r2l}
+    {\startalignment[flushleft]} {\startalignment[flushright]}
       \bgroup
         \definedfont[Serif sa 5]
         % I want to print the title one word per line
