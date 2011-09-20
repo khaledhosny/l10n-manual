@@ -138,21 +138,21 @@
   [alternative=doublesided,location=]
 
 \setupheadertexts
-  []
   [\setups{text:header:odd}]
-  [\setups{text:header:even}]
   []
+  []
+  [\setups{text:header:even}]
 
 \startsetups text:header:odd
-  \getmarking[chapter][current]
-  \quad\vrule\quad
   \pagenumber
+  \quad\vrule\quad
+  \getmarking[chapter][current]
 \stopsetups
 
 \startsetups text:header:even
-  \pagenumber
-  \quad\vrule\quad
   \getvariable{l10n-manual}{title}
+  \quad\vrule\quad
+  \pagenumber
 \stopsetups
 
 %
